@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Anamantic Websites Testing" parallel="false">
+	<parameter name="url" value="http://live.techpanda.org/" />
+	
+	<listeners>
+		<listener class-name = "commons.MethodListener"/>
+
+	
+	</listeners>
+    <test name="Run On Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.liveguru.frontend.Register_And_Login"/>
+		</classes>
+	</test>
+	
+<!-- 	<test name="Run On Safari"> -->
+<!-- 		<parameter name="browser" value="safari" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="obe.tracker.T01_View_Product"/> -->
+<!-- 		</classes> --> 
+<!-- 	</test> -->
+	
+<!-- 	<test name="Run On FireFox"> -->
+<!-- 		<parameter name="browser" value="firefox" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="obe.tracker.T01_View_Product"/> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+ </suite>  
