@@ -1,4 +1,4 @@
-package pageUIs.bankGuru;
+package pageUIs.liveGuru;
 
 public class LoginPageUI {
 
