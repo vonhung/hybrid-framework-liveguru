@@ -3,12 +3,14 @@ package com.liveguru.frontend;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
 import commons.BaseTest;
+import pageObjects.liveGuru.DashboardPageObject;
 import pageObjects.liveGuru.HomePageObject;
+import pageObjects.liveGuru.LogOutSuccessPageObject;
+import pageObjects.liveGuru.LoginPageObject;
+import pageObjects.liveGuru.AccountInfoPageObject;
 import pageObjects.liveGuru.PageGeneratorManager;
 import pageObjects.liveGuru.RegisterPageObject;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
@@ -17,7 +19,11 @@ public class Register_And_Login extends BaseTest {
 	WebDriver driver;
 	HomePageObject homePage;
 	RegisterPageObject registerPage;
-	String emailAddress, password;
+	DashboardPageObject dashboardPage;
+	AccountInfoPageObject accountInfoPage;
+	LoginPageObject logInPage;
+	LogOutSuccessPageObject logOutSucccessPage;
+	String firstName, lastName, emailAddress, password;
 
 	@Parameters({ "browser", "url" })
 
@@ -28,8 +34,11 @@ public class Register_And_Login extends BaseTest {
 		driver = getBrowserDriver(browserName, appURL);
 		driver.manage().window().maximize();
 		homePage = PageGeneratorManager.getHomePage(driver);
+		firstName = "Nhung";
+		lastName = "Auto";
 		emailAddress = randomEmailGenerator();
 		password = "123456";
+		
 
 	}
 
@@ -40,13 +49,13 @@ public class Register_And_Login extends BaseTest {
 		log.info("TC_O1_Step 02: Click on Register");
 		registerPage = homePage.clickOnRegisterMenu();
 		log.info("TC_O1_Step 03: Input valid data to form");
-		registerPage.inputFirstName("Nhung");
-		registerPage.inputLastName("Auto");
+		registerPage.inputFirstName(firstName);
+		registerPage.inputLastName(lastName);
 		registerPage.inputEmailAddress(emailAddress);
 		registerPage.inputPassword(password);
 		registerPage.inputConfirmPassword(password);
 		log.info("TC_O1_Step 04: Click Register");
-		registerPage.clickOnRegisterButton();
+		dashboardPage = registerPage.clickOnRegisterButton();
 		log.info("TC_O1_Step 05: Verify text displayed after registered successfully");
 		verifyTrue(homePage.isRegisteredSuccessfully());
 		
@@ -55,23 +64,37 @@ public class Register_And_Login extends BaseTest {
 	}
 	@Test
 	public void TC_02_Verify_Account() {
-		log.info("TC_O2_Step 01: Open My Account page");
-		log.info("TC_O2_Step 02: Open Account Information page");
+		log.info("TC_O2_Step 01: Open Account Information page");
+		accountInfoPage =  dashboardPage.clickOnAccountInformationLink();
 		log.info("TC_O2_Step 03: Verify first name, last name and email of account");
+		verifyEquals(accountInfoPage.getFirstName(), firstName);
+		verifyEquals(accountInfoPage.getLastName(), lastName);
+		verifyEquals(accountInfoPage.getEmailAddress(), emailAddress);
 		
 	}
 	@Test
 	public void TC_03_Login_Success() {
-		log.info("TC_O3_Step 02: Click on Account");
+		log.info("TC_O3_Step 01: Click on Account");
+		accountInfoPage.clickOnAccountMenuLink();
 		log.info("TC_O3_Step 02: Click on Logout");
+		logOutSucccessPage = accountInfoPage.clickOnLogOut();
 		log.info("TC_O3_Step 03: Click on Account");
+		logOutSucccessPage.clickOnAccountMenuLink();
 		log.info("TC_O3_Step 04: Click on Log In");
-		log.info("TC_O3_Step 05: Verify dashboard header text displayed");
+		logInPage = logOutSucccessPage.clickOnLogInMenuLink();
+		log.info("TC_O3_Step 05: Input Email and Password");
+		logInPage.inputEmailAddress(emailAddress);
+		logInPage.inputPassword(password);
+		log.info("TC_O3_Step 06: Click on Log In button");
+		dashboardPage = logInPage.clickOnLogInButton();
+		log.info("TC_O3_Step 07: Verify dashboard header text displayed");
+		verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed());
+		
 	}
 
 	@AfterClass
 	public void cleanBrowser() {
-		driver.quit();
+	//	driver.quit();
 	}
 
 }

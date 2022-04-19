@@ -3,12 +3,13 @@ package pageObjects.liveGuru;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import pageUIs.liveGuru.DashboardPageUI;
 import pageUIs.liveGuru.RegisterPageUI;
 
-public class RegisterPageObject extends BasePage {
+public class DashboardPageObject extends BasePage {
 	WebDriver driver;
 
-	public RegisterPageObject(WebDriver driver) {
+	public DashboardPageObject(WebDriver driver) {
 		this.driver = driver;
 	}
 
@@ -39,10 +40,21 @@ public class RegisterPageObject extends BasePage {
 		sendkeyToElement(driver, RegisterPageUI.REGISTER_CONFIRM_PASSWORD_TEXTBOX, password);			
 	}
 
-	public DashboardPageObject clickOnRegisterButton() {
+	public HomePageObject clickOnRegisterButton() {
 		waitForElementVisible(driver, RegisterPageUI.REGISTER_BUTTON);
 		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);	
-		return PageGeneratorManager.getDashboardPageObject(driver);
+		return PageGeneratorManager.getHomePage(driver);
+	}
+
+	public AccountInfoPageObject clickOnAccountInformationLink() {
+		waitForElementVisible(driver, DashboardPageUI.ACCOUNT_INFORMATION_MENU_LINK);
+		clickToElement(driver, DashboardPageUI.ACCOUNT_INFORMATION_MENU_LINK);	
+		return PageGeneratorManager.getAccountInfoPageObject(driver);
+	}
+
+	public boolean isDashboardHeaderTextDisplayed() {
+		waitForElementVisible(driver,DashboardPageUI.DASHBOARD_PAGE_TITLE);
+		return isElementDisplayed(driver, DashboardPageUI.DASHBOARD_PAGE_TITLE);
 	}
 
 	
