@@ -88,7 +88,7 @@ public class Register_And_Login extends BaseTest {
 		log.info("TC_O3_Step 06: Click on Log In button");
 		dashboardPage = logInPage.clickOnLogInButton();
 		log.info("TC_O3_Step 07: Verify dashboard header text displayed");
-		verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed());
+		verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed(firstName,lastName));
 		
 	}
 

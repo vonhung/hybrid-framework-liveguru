@@ -15,6 +15,8 @@ public class PageGeneratorManager {
 	private static LogOutSuccessPageObject logOutSuccessPage;
 //	private static SearchPageObject searchPage;	
 	private static AccountInfoPageObject accountInfoPage;
+	private static ProductPageObject productPage;
+	private static ProductListPageObject productListPage;
 //	private static OrderPageObject orderPage;	
 	
 	public static HomePageObject getHomePage (WebDriver driver) {
@@ -58,6 +60,20 @@ public class PageGeneratorManager {
 			logOutSuccessPage = new LogOutSuccessPageObject(driver);
 		}
 		return logOutSuccessPage;
+	}
+	public static ProductPageObject getProductPageObject(WebDriver driver) {
+
+		if (productPage == null) {
+			productPage = new ProductPageObject(driver);
+		}
+		return productPage;
+	}
+	public static ProductListPageObject getProductListPageObject(WebDriver driver) {
+		
+		if (productListPage == null) {
+			productListPage = new ProductListPageObject(driver);
+		}
+		return productListPage;
 	}
 
 	

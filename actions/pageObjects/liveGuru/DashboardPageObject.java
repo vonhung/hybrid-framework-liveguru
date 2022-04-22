@@ -52,9 +52,9 @@ public class DashboardPageObject extends BasePage {
 		return PageGeneratorManager.getAccountInfoPageObject(driver);
 	}
 
-	public boolean isDashboardHeaderTextDisplayed() {
-		waitForElementVisible(driver,DashboardPageUI.DASHBOARD_PAGE_TITLE);
-		return isElementDisplayed(driver, DashboardPageUI.DASHBOARD_PAGE_TITLE);
+	public boolean isDashboardHeaderTextDisplayed(String firstName, String lastName) {
+		waitForElementVisible(driver,DashboardPageUI.DASHBOARD_PAGE_TITLE,firstName,lastName);
+		return isElementDisplayed(driver, DashboardPageUI.DASHBOARD_PAGE_TITLE,firstName,lastName);
 	}
 
 	

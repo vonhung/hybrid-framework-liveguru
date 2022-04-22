@@ -10,7 +10,8 @@
     <test name="Run On Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.liveguru.frontend.Register_And_Login"/>
+<!--			<class name="com.liveguru.frontend.Register_And_Login"/> -->
+			<class name="com.liveguru.frontend.Product_Events_And_Checkout_Flow"/>
 		</classes>
 	</test>
 	

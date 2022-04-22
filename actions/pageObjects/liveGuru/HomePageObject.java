@@ -29,4 +29,10 @@ public class HomePageObject extends BasePage {
 		return isElementDisplayed(driver, HomePageUI.REGISTER_SUCCESS_MESSAGE);
 	}
 
+	public ProductListPageObject clickOnMobile() {
+		waitForElementVisible(driver,HomePageUI.MOBILE_MENU);
+		clickToElement(driver, HomePageUI.MOBILE_MENU);
+		return PageGeneratorManager.getProductListPageObject(driver);
+	}
+
 }
