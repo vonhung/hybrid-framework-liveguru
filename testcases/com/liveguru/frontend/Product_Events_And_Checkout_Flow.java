@@ -9,17 +9,21 @@ import pageObjects.liveGuru.HomePageObject;
 import pageObjects.liveGuru.LogOutSuccessPageObject;
 import pageObjects.liveGuru.LoginPageObject;
 import pageObjects.liveGuru.AccountInfoPageObject;
+import pageObjects.liveGuru.CheckoutCartPageObject;
 import pageObjects.liveGuru.PageGeneratorManager;
 import pageObjects.liveGuru.ProductListPageObject;
 import pageObjects.liveGuru.ProductPageObject;
 import pageObjects.liveGuru.RegisterPageObject;
+
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
 public class Product_Events_And_Checkout_Flow extends BaseTest {
 
 	WebDriver driver;
-	String productName, productCostPLP, productCostPDP;
+	String productName, productCostPLP, productCostPDP, discountCode, discountAmount;
+	Integer discountPercentage;
 
 	@Parameters({ "browser", "url" })
 
@@ -31,7 +35,10 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		driver.manage().window().maximize();
 		homePage = PageGeneratorManager.getHomePage(driver);
 		productName = "Sony Xperia";
-
+		discountCode = "GURU50";
+		discountPercentage = 5;
+		
+		
 	}
 
 	@Test
@@ -50,12 +57,22 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		
 
 	}
-	//@Test
+	@Test
 	public void TC_05_Verify_Discount_Coupon() {
-		log.info("TC_O2_Step 01: Open Account Information page");
-	
+		log.info("TC_O2_Step 01: Click on Add To Cart button");
+		checkoutCartPage = productPage.clickAddToCartButton();
+		log.info("TC_O2_Step 02: Verify product added to cart");
+		verifyTrue(checkoutCartPage.isProductAddedToCart(productName));
+		log.info("TC_O2_Step 03: Sendkey to Discount Codes textbox");
+		checkoutCartPage.sendkeyToDiscountCodesField(discountCode);
+		log.info("TC_O2_Step 04: Click Apply");
+		checkoutCartPage.clickOnApplyLink();
+		log.info("TC_O2_Step 05: Verify discount amount displayed ");
+		discountAmount = checkoutCartPage.calculateDiscountAmount(productCostPDP,discountPercentage);
+		verifyTrue(checkoutCartPage.isDiscountAmountDisplayed(discountCode, discountAmount));
 		
 	}
+	
 	//@Test
 	public void TC_06_Verify_Max_Qty_Available_To_Add() {
 		log.info("TC_O3_Step 01: Click on Account");
@@ -102,6 +119,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	LogOutSuccessPageObject logOutSucccessPage;
 	ProductListPageObject productListPage;
 	ProductPageObject productPage;
+	CheckoutCartPageObject checkoutCartPage;
 
 	@AfterClass
 	public void cleanBrowser() {

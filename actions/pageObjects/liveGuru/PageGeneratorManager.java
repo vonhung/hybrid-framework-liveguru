@@ -17,6 +17,7 @@ public class PageGeneratorManager {
 	private static AccountInfoPageObject accountInfoPage;
 	private static ProductPageObject productPage;
 	private static ProductListPageObject productListPage;
+	private static CheckoutCartPageObject checkoutCartPage;
 //	private static OrderPageObject orderPage;	
 	
 	public static HomePageObject getHomePage (WebDriver driver) {
@@ -74,6 +75,13 @@ public class PageGeneratorManager {
 			productListPage = new ProductListPageObject(driver);
 		}
 		return productListPage;
+	}
+	public static CheckoutCartPageObject getCheckoutCartPage(WebDriver driver) {
+		
+		if (checkoutCartPage == null) {
+			checkoutCartPage = new CheckoutCartPageObject(driver);
+		}
+		return checkoutCartPage;
 	}
 
 	

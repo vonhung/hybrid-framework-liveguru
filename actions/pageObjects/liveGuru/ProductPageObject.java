@@ -17,4 +17,10 @@ public class ProductPageObject extends BasePage {
 		return getElementText(driver,ProductPageUI.PRODUCT_PRICE);
 	}
 
+	public CheckoutCartPageObject clickAddToCartButton() {
+		waitForElementVisible(driver, ProductPageUI.ADD_TO_CART_BUTTON);
+		clickToElement(driver, ProductPageUI.ADD_TO_CART_BUTTON);
+		return PageGeneratorManager.getCheckoutCartPage(driver);
+	}
+
 }
