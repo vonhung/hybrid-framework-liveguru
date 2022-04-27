@@ -9,6 +9,7 @@ public class CompareProductPageUI {
 	public static final String REGISTER_BUTTON = "//button [@title='Register']";
 	public static final String COMPARE_POPUP_HEADING_TEXT = "//div[@class='page-title title-buttons']/h1[text()='Compare Products']";
 	public static final String SELECTED_PRODUCT_NAME_IN_COMPARE = "//h2[@class='product-name']/a[text()='%s']";
+	public static final String TV_MENU_LINK = "//div[@id='header-nav']//a[text()='TV']";
 	
 
 }

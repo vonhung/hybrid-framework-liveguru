@@ -6,5 +6,6 @@ public class ProductListPageUI {
 	public static final String ADD_TO_COMPARE_BUTTON = "//a[text()='%s']//ancestor::div[@class='product-info']//a[@class='link-compare']";
 	public static final String ADDED_TO_COMPARE_MESSAGE = "//li[@class='success-msg']//span[text()='The product %s has been added to comparison list.']";
 	public static final String COMPARE_BUTTON = "//button[@title='Compare']";
+	public static final String ADD_TO_WISHLIST_BUTTON = "//div[@class='category-products']//a[text()='%s']/ancestor::li//ul//a[@class='link-wishlist']";
 
 }

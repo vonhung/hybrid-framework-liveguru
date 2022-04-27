@@ -26,9 +26,10 @@ public class CompareProductPageObject extends BasePage {
 		closeAllWindowExceptParent(driver,parentId);
 	}
 
-	public boolean isCompareWindowClosed() {
-		// TODO Auto-generated method stub
-		return false;
+	public ProductListPageObject clickOnMenuTV() {
+		waitForElementVisible(driver,CompareProductPageUI.TV_MENU_LINK);
+		clickToElement(driver, CompareProductPageUI.TV_MENU_LINK);
+		return PageGeneratorManager.getProductListPageObject(driver);
 	}
 
 }

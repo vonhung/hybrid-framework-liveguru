@@ -43,6 +43,12 @@ public class ProductListPageObject extends BasePage {
 	public String getWindowId() {
 		return driver.getWindowHandle();
 	}
+
+	public LoginPageObject clickOnAddToWishlist(String tvProductName) {
+		waitForElementVisible(driver, ProductListPageUI.ADD_TO_WISHLIST_BUTTON,tvProductName);
+		clickToElement(driver, ProductListPageUI.ADD_TO_WISHLIST_BUTTON,tvProductName);	
+		return PageGeneratorManager.getLoginPageObject(driver);
+	}
 	
 
 }

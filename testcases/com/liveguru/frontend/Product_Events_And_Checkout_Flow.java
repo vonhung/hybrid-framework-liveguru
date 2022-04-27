@@ -15,7 +15,7 @@ import pageObjects.liveGuru.PageGeneratorManager;
 import pageObjects.liveGuru.ProductListPageObject;
 import pageObjects.liveGuru.ProductPageObject;
 import pageObjects.liveGuru.RegisterPageObject;
-
+import pageObjects.liveGuru.WishlistPageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -23,8 +23,8 @@ import org.testng.annotations.AfterClass;
 public class Product_Events_And_Checkout_Flow extends BaseTest {
 
 	WebDriver driver;
-	String productName, productCostPLP, productCostPDP, discountCode, discountAmount, requestQty, maximumQty;
-	String productName1, productName2, windowTitle, plpWindowId;
+	String mobileProductName, productCostPLP, productCostPDP, discountCode, discountAmount, requestQty, maximumQty;
+	String productName1, productName2, windowTitle, plpWindowId, tvProductName, shareReceiverEmail, shareMessage, emailAddress, password;
 	Integer discountPercentage;
 
 	@Parameters({ "browser", "url" })
@@ -36,7 +36,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		driver = getBrowserDriver(browserName, appURL);
 		driver.manage().window().maximize();
 		homePage = PageGeneratorManager.getHomePage(driver);
-		productName = "Sony Xperia";
+		mobileProductName = "Sony Xperia";
 		productName1 = "Samsung Galaxy";
 		productName2 = "IPhone";
 		discountCode = "GURU50";
@@ -44,6 +44,11 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		requestQty = "501";
 		maximumQty = "500";
 		windowTitle = "Compare Products";
+		tvProductName  = "LG LCD";
+		shareReceiverEmail = randomEmailGenerator();
+		shareMessage = "test only please ignore!";
+		emailAddress = "nhung.auto_01@mailinator.com";
+		password  = "123456";
 			
 	}
 
@@ -52,9 +57,9 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		log.info("TC_O4_Step 01: Click on Mobile");
 		productListPage = homePage.clickOnMobile();
 		log.info("TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)");
-		productCostPLP = productListPage.getCostOnPLP(productName);
+		productCostPLP = productListPage.getCostOnPLP(mobileProductName);
 		log.info("TC_O4_Step 03: Click on Soni Xperia slot");
-		productPage = productListPage.clickOnProductImage(productName);
+		productPage = productListPage.clickOnProductImage(mobileProductName);
 		log.info("TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)");
 		productCostPDP = productPage.getCostOnPDP();
 		log.info("TC_O4_Step 05: Compare cost in PLP and PDP");
@@ -68,7 +73,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		log.info("TC_O5_Step 01: Click on Add To Cart button");
 		checkoutCartPage = productPage.clickAddToCartButton();
 		log.info("TC_O5_Step 02: Verify product added to cart");
-		verifyTrue(checkoutCartPage.isProductAddedToCart(productName));
+		verifyTrue(checkoutCartPage.isProductAddedToCart(mobileProductName));
 		log.info("TC_O5_Step 03: Sendkey to Discount Codes textbox");
 		checkoutCartPage.sendkeyToDiscountCodesField(discountCode);
 		log.info("TC_O5_Step 04: Click Apply");
@@ -117,26 +122,53 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		compareProductPage.closeCompareWindonw(plpWindowId);
 		
 	}
+	@Test
+	public void TC_08_Verify_Share_Wishlist() {
+		log.info("TC_O8_Step 01: Click on TV");
+		productListPage = compareProductPage.clickOnMenuTV();
+		log.info("TC_O8_Step 02: Click on Add To Wishlist link");
+		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
+		log.info("TC_O8_Step 03: Enter Email Address");
+		logInPage.inputEmailAddress(emailAddress);
+		log.info("TC_O8_Step 04: Enter Password");
+		logInPage.inputPassword(password);
+		log.info("TC_O8_Step 05: Click Login button");
+		wishlistPage = logInPage.clickOnLogInButtonToWishlist();
+		log.info("TC_O8_Step 06: Click on TV");
+		productListPage = compareProductPage.clickOnMenuTV();
+		log.info("TC_O8_Step 07: Click on Add To Wishlist link");
+		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
+		log.info("TC_O8_Step 08: Verify message product added to wishlist");
+		verifyTrue(wishlistPage.isAddedToWishlistMessageDisplayed(tvProductName));
+		log.info("TC_O8_Step 10: Click Share wishlist button");
+		wishlistPage.clickShareWishlishButton();
+		log.info("TC_O8_Step 11: Enter receive email");
+		wishlistPage.enterReceiveEmail(shareReceiverEmail);
+		log.info("TC_O8_Step 12: Enter message");
+		wishlistPage.enterShareMessage(shareMessage);
+		log.info("TC_O8_Step 13: Click Share wishlist button");
+		wishlistPage.clickShareWishlishButton();
+		log.info("TC_O8_Step 14: Verify Share wishlist message");
+		verifyTrue(wishlistPage.isSharedWishlistMessageDisplayed());
+		log.info("TC_O8_Step 15: Click on My Wishlist menu link");
+		wishlistPage.clickOnMyWishlistMenu();
+		log.info("TC_O8_Step 16: Verify product name is displayed");
+		verifyTrue(wishlistPage.isWishlistProductNameDisplayed(tvProductName));
+	}
 	//@Test
-	public void TC_08_Veirfy_Share_Wishlist() {
+	public void TC_09_Verify_Add_Your_Review() {
 		log.info("TC_O3_Step 01: Click on Account");
 		
 		
 	}
 	//@Test
-	public void TC_09_Veirfy_Share_Wishlist() {
+	public void TC_10_Verify_Purchase() {
 		log.info("TC_O3_Step 01: Click on Account");
 		
 		
 	}
 	//@Test
-	public void TC_10_Veirfy_Purchase() {
-		log.info("TC_O3_Step 01: Click on Account");
-		
-		
-	}
-	//@Test
-	public void TC_11_Veirfy_Add_Your_Review() {
+	public void TC_11_Verify_Search_Functionality() {
 		log.info("TC_O3_Step 01: Click on Account");
 		
 		
@@ -153,6 +185,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	ProductPageObject productPage;
 	CheckoutCartPageObject checkoutCartPage;
 	CompareProductPageObject compareProductPage;
+	WishlistPageObject wishlistPage;
 
 	@AfterClass
 	public void cleanBrowser() {

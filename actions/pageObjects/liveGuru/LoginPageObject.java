@@ -25,8 +25,13 @@ public class LoginPageObject extends BasePage {
 	public DashboardPageObject clickOnLogInButton() {
 		waitForElementVisible(driver, LoginPageUI.LOGIN_BUTTON);
 		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);	
-		return PageGeneratorManager.getDashboardPageObject(driver)
-;
+		return PageGeneratorManager.getDashboardPageObject(driver);
 	}
+	public WishlistPageObject clickOnLogInButtonToWishlist() {
+		waitForElementVisible(driver, LoginPageUI.LOGIN_BUTTON);
+		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);	
+		return PageGeneratorManager.getWishlistPage(driver);
+	}
+
 
 }
