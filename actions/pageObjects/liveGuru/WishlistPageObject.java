@@ -48,6 +48,12 @@ public class WishlistPageObject extends BasePage {
 		return isElementDisplayed(driver, WishlistPageUI.ADDED_WISHLIST_PRODUCT_NAME,productName);
 	}
 
+	public ProductListPageObject clickOnMenuTV() {
+		waitForElementVisible(driver,WishlistPageUI.TV_MENU_LINK);
+		clickToElement(driver, WishlistPageUI.TV_MENU_LINK);
+		return PageGeneratorManager.getProductListPageObject(driver);
+	}
+
 
 
 }

@@ -23,4 +23,10 @@ public class ProductPageObject extends BasePage {
 		return PageGeneratorManager.getCheckoutCartPage(driver);
 	}
 
+	public ProductReviewPageObject clickOnAddYourReviewButton() {
+		waitForElementVisible(driver, ProductPageUI.ADD_YOUR_REVIEW_BUTTON);
+		clickToElement(driver, ProductPageUI.ADD_YOUR_REVIEW_BUTTON);
+		return PageGeneratorManager.getReviewPage(driver);
+	}
+
 }

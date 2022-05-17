@@ -20,6 +20,7 @@ public class PageGeneratorManager {
 	private static CheckoutCartPageObject checkoutCartPage;
 	private static CompareProductPageObject compareProductPage;
 	private static WishlistPageObject wishlistProductPage;
+	private static ProductReviewPageObject reviewProductPage;
 //	private static OrderPageObject orderPage;	
 	
 	public static HomePageObject getHomePage (WebDriver driver) {
@@ -100,6 +101,14 @@ public class PageGeneratorManager {
 			wishlistProductPage = new WishlistPageObject(driver);
 		}
 		return wishlistProductPage;
+	}
+	
+	public static ProductReviewPageObject getReviewPage(WebDriver driver) {
+		
+		if (reviewProductPage == null) {
+			reviewProductPage = new ProductReviewPageObject(driver);
+		}
+		return reviewProductPage;
 	}
 
 	

@@ -14,6 +14,7 @@ import pageObjects.liveGuru.CompareProductPageObject;
 import pageObjects.liveGuru.PageGeneratorManager;
 import pageObjects.liveGuru.ProductListPageObject;
 import pageObjects.liveGuru.ProductPageObject;
+import pageObjects.liveGuru.ProductReviewPageObject;
 import pageObjects.liveGuru.RegisterPageObject;
 import pageObjects.liveGuru.WishlistPageObject;
 
@@ -24,7 +25,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 
 	WebDriver driver;
 	String mobileProductName, productCostPLP, productCostPDP, discountCode, discountAmount, requestQty, maximumQty;
-	String productName1, productName2, windowTitle, plpWindowId, tvProductName, shareReceiverEmail, shareMessage, emailAddress, password;
+	String productName1, productName2, windowTitle, plpWindowId, tvProductName,tvProductName2, shareReceiverEmail, shareMessage, emailAddress, password;
 	Integer discountPercentage;
 
 	@Parameters({ "browser", "url" })
@@ -45,6 +46,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		maximumQty = "500";
 		windowTitle = "Compare Products";
 		tvProductName  = "LG LCD";
+		tvProductName2 = "Samsung LCD";
 		shareReceiverEmail = randomEmailGenerator();
 		shareMessage = "test only please ignore!";
 		emailAddress = "nhung.auto_01@mailinator.com";
@@ -155,11 +157,35 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		log.info("TC_O8_Step 16: Verify product name is displayed");
 		verifyTrue(wishlistPage.isWishlistProductNameDisplayed(tvProductName));
 	}
-	//@Test
+	@Test
 	public void TC_09_Verify_Add_Your_Review() {
-		log.info("TC_O3_Step 01: Click on Account");
-		
-		
+		log.info("TC_O9_Step 01: Click on TV");
+		productListPage = wishlistPage.clickOnMenuTV();
+		log.info("TC_O9_Step 02: Click on Product");
+		productPage = productListPage.clickOnProductImage(tvProductName2);
+		log.info("TC_O9_Step 03: Click on Add Your Review button");
+		productReviewPage  = productPage.clickOnAddYourReviewButton();
+		log.info("TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname");
+		productReviewPage.sendkeyToReviewDetailsField("");
+		productReviewPage.sendkeyToSummayField("");
+		productReviewPage.sendkeyToNickNameField("");
+		log.info("TC_O9_Step 05: Click Submit Review button");
+		productReviewPage.clickOnSubmitReviewButton();
+		log.info("TC_O9_Step 06: Verify validatation messages shown");
+		verifyTrue(productReviewPage.isValidationMessageShown("review_field"));
+		verifyTrue(productReviewPage.isValidationMessageShown("summary_field"));
+		verifyTrue(productReviewPage.isValidationMessageShown("nickname_field"));
+		log.info("TC_O9_Step 07: Select the rating rate");
+		productReviewPage.selectRatingRrate("4");
+		log.info("TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname");
+		productReviewPage.sendkeyToReviewDetailsField("good product");
+		productReviewPage.sendkeyToSummayField("good");
+		productReviewPage.sendkeyToNickNameField("tester");
+		log.info("TC_O9_Step 09: Click Submit Review button");
+		productReviewPage.clickOnSubmitReviewButton();
+		log.info("TC_O9_Step 10: Verify review accepted message shown");
+		verifyTrue(productReviewPage.isReviewAcceptedMessageShown());
+
 	}
 	//@Test
 	public void TC_10_Verify_Purchase() {
@@ -186,6 +212,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	CheckoutCartPageObject checkoutCartPage;
 	CompareProductPageObject compareProductPage;
 	WishlistPageObject wishlistPage;
+	ProductReviewPageObject productReviewPage;
 
 	@AfterClass
 	public void cleanBrowser() {

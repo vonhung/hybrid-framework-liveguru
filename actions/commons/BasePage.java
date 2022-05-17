@@ -232,9 +232,21 @@ public class BasePage {
 		}
 	}
 	
+	public void checktoChecboxOrRadio(WebDriver driver, String locator, String... params) {
+		if(!isElementSelected(driver, getDynamicLocator(locator, params))) {
+			getElement(driver, getDynamicLocator(locator, params)).click();
+		}
+	}
+	
 	public void UnchecktoChecboxOrRadio(WebDriver driver, String locator) {
 		if(isElementSelected(driver, locator)) {
 			getElement(driver, locator).click();
+		}
+	}
+	
+	public void UnchecktoChecboxOrRadio(WebDriver driver, String locator, String... params) {
+		if(isElementSelected(driver, getDynamicLocator(locator, params))) {
+			getElement(driver, getDynamicLocator(locator, params)).click();
 		}
 	}
 	
