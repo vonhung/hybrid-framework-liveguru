@@ -8,8 +8,10 @@ import pageObjects.liveGuru.DashboardPageObject;
 import pageObjects.liveGuru.HomePageObject;
 import pageObjects.liveGuru.LogOutSuccessPageObject;
 import pageObjects.liveGuru.LoginPageObject;
+import pageObjects.liveGuru.OrderPageObject;
 import pageObjects.liveGuru.AccountInfoPageObject;
-import pageObjects.liveGuru.CheckoutCartPageObject;
+import pageObjects.liveGuru.CartPageObject;
+import pageObjects.liveGuru.CheckoutPageObject;
 import pageObjects.liveGuru.CompareProductPageObject;
 import pageObjects.liveGuru.PageGeneratorManager;
 import pageObjects.liveGuru.ProductListPageObject;
@@ -25,11 +27,11 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 
 	WebDriver driver;
 	String mobileProductName, productCostPLP, productCostPDP, discountCode, discountAmount, requestQty, maximumQty;
-	String productName1, productName2, windowTitle, plpWindowId, tvProductName,tvProductName2, shareReceiverEmail, shareMessage, emailAddress, password;
+	String productName1, productName2, windowTitle, plpWindowId, tvProductName,tvProductName2, 
+	shareReceiverEmail, shareMessage, emailAddress, password, orderNo;
 	Integer discountPercentage;
 
 	@Parameters({ "browser", "url" })
-
 	@BeforeClass
 
 	public void initBrowser(String browserName, String appURL) {
@@ -49,9 +51,6 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		tvProductName2 = "Samsung LCD";
 		shareReceiverEmail = randomEmailGenerator();
 		shareMessage = "test only please ignore!";
-		emailAddress = "nhung.auto_01@mailinator.com";
-		password  = "123456";
-			
 	}
 
 	@Test
@@ -73,38 +72,38 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	@Test
 	public void TC_05_Verify_Discount_Coupon() {
 		log.info("TC_O5_Step 01: Click on Add To Cart button");
-		checkoutCartPage = productPage.clickAddToCartButton();
+		cartPage = productPage.clickAddToCartButton();
 		log.info("TC_O5_Step 02: Verify product added to cart");
-		verifyTrue(checkoutCartPage.isProductAddedToCart(mobileProductName));
+		verifyTrue(cartPage.isProductAddedToCart(mobileProductName));
 		log.info("TC_O5_Step 03: Sendkey to Discount Codes textbox");
-		checkoutCartPage.sendkeyToDiscountCodesField(discountCode);
+		cartPage.sendkeyToDiscountCodesField(discountCode);
 		log.info("TC_O5_Step 04: Click Apply");
-		checkoutCartPage.clickOnApplyLink();
+		cartPage.clickOnApplyLink();
 		log.info("TC_O5_Step 05: Verify discount amount displayed ");
-		discountAmount = checkoutCartPage.calculateDiscountAmount(productCostPDP,discountPercentage);
-		verifyTrue(checkoutCartPage.isDiscountAmountDisplayed(discountCode, discountAmount));
+		discountAmount = cartPage.calculateDiscountAmount(productCostPDP,discountPercentage);
+		verifyTrue(cartPage.isDiscountAmountDisplayed(discountCode, discountAmount));
 		
 	}
 	
 	@Test
 	public void TC_06_Verify_Max_Qty_Available_To_Add() {
 		log.info("TC_O6_Step 01: Sendkey to Qty field");
-		checkoutCartPage.sendKeyToQty(requestQty);
+		cartPage.sendKeyToQty(requestQty);
 		log.info("TC_O6_Step 02: Click Update button");
-		checkoutCartPage.clickOnUpdateQtyButton();
+		cartPage.clickOnUpdateQtyButton();
 		log.info("TC_O6_Step 03: Verify error message");
-		verifyTrue(checkoutCartPage.isCartErrorMessageDisplayed());
-		verifyTrue(checkoutCartPage.isItemErrorMessageDisplayed(maximumQty));
+		verifyTrue(cartPage.isCartErrorMessageDisplayed());
+		verifyTrue(cartPage.isItemErrorMessageDisplayed(maximumQty));
 		log.info("TC_O6_Step 04: Click Empty Cart");
-		checkoutCartPage.clickOnEmptyCartButton();
+		cartPage.clickOnEmptyCartButton();
 		log.info("TC_O6_Step 05: Verify Empty Cart");
-		verifyTrue(checkoutCartPage.isEmptyCartMessageDisplayed());
+		verifyTrue(cartPage.isEmptyCartMessageDisplayed());
 		
 	}
 	@Test
 	public void TC_07_Verify_Compare_Products() {
 		log.info("TC_O7_Step 01: Click on Mobile");
-		productListPage = checkoutCartPage.clickOnMobile();
+		productListPage = cartPage.clickOnMobile();
 		plpWindowId  = productListPage.getWindowId();
 		log.info("TC_O7_Step 02: Click on Add To Compare for Sony Xperia");
 		productListPage.clickAddToCompare(productName1);
@@ -124,22 +123,22 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		compareProductPage.closeCompareWindonw(plpWindowId);
 		
 	}
-	@Test
-	public void TC_08_Verify_Share_Wishlist() {
+	@Test (dataProviderClass = Register_And_Login.class, dataProvider = "registerAccountDataProvider")
+	public void TC_08_Verify_Share_Wishlist(String emailAddress, String Password) {
 		log.info("TC_O8_Step 01: Click on TV");
-		productListPage = compareProductPage.clickOnMenuTV();
+		productListPage.clickOnMenuTV();
 		log.info("TC_O8_Step 02: Click on Add To Wishlist link");
-		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
-		log.info("TC_O8_Step 03: Enter Email Address");
-		logInPage.inputEmailAddress(emailAddress);
-		log.info("TC_O8_Step 04: Enter Password");
-		logInPage.inputPassword(password);
-		log.info("TC_O8_Step 05: Click Login button");
-		wishlistPage = logInPage.clickOnLogInButtonToWishlist();
-		log.info("TC_O8_Step 06: Click on TV");
-		productListPage = compareProductPage.clickOnMenuTV();
-		log.info("TC_O8_Step 07: Click on Add To Wishlist link");
-		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
+		wishlistPage = productListPage.clickOnAddToWishlist(tvProductName);
+//		log.info("TC_O8_Step 03: Enter Email Address");
+//		logInPage.inputEmailAddress(emailAddress);
+//		log.info("TC_O8_Step 04: Enter Password");
+//		logInPage.inputPassword(password);
+//		log.info("TC_O8_Step 05: Click Login button");
+//		wishlistPage = logInPage.clickOnLogInButtonToWishlist();
+//		log.info("TC_O8_Step 06: Click on TV");
+//		productListPage = compareProductPage.clickOnMenuTV();
+//		log.info("TC_O8_Step 07: Click on Add To Wishlist link");
+//		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
 		log.info("TC_O8_Step 08: Verify message product added to wishlist");
 		verifyTrue(wishlistPage.isAddedToWishlistMessageDisplayed(tvProductName));
 		log.info("TC_O8_Step 10: Click Share wishlist button");
@@ -187,9 +186,52 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		verifyTrue(productReviewPage.isReviewAcceptedMessageShown());
 
 	}
-	//@Test
+	@Test
 	public void TC_10_Verify_Purchase() {
-		log.info("TC_O3_Step 01: Click on Account");
+		log.info("TC_10_Step 0: Click on Go to Wishlist link");
+		wishlistPage = productReviewPage.clickOnGoToWishlistLink();
+		log.info("TC_10_Step 0: Click Add To Cart");
+		cartPage = wishlistPage.clickAddToCart();
+		log.info("TC_10_Step 0: Verify Added message");
+		verifyTrue(cartPage.isProductAddedToCart(tvProductName));
+		log.info("TC_10_Step 0: Select dropdown State/Province New York");
+		cartPage.selectDropdownState("New York");
+		log.info("TC_10_Step 0: Enter Zipcode 543432");
+		cartPage.enterZipcode("543432");
+		log.info("TC_10_Step 0: Click Estimate");
+		cartPage.clickEstimateButton();
+		log.info("TC_10_Step 0: verify Flat Rate Shipping $5 is generated");
+		verifyTrue(cartPage.isShippingPriceGenerated("$5.00"));
+		log.info("TC_10_Step 0: Select Shipping Cost");
+		cartPage.selectShippingCostRadioButton();
+		log.info("TC_10_Step 0: Click Update Total");
+		cartPage.clickUpdateTotalButton();
+		log.info("TC_10_Step 0: Verify Total updated");
+		verifyTrue(cartPage.isShippingIncludedInTotalPrice());
+		log.info("TC_10_Step 0: Click Proceed to Checkout");
+		checkoutPage = cartPage.clickProceedToCheckoutButton();
+		log.info("TC_10_Step 0: Enter Billing Information");
+		checkoutPage.enterAddressAtBilling("abc");
+		checkoutPage.enterCityAtBilling("abc");
+		checkoutPage.selectDropdownStateAtBilling("New York");
+		checkoutPage.enterZipCode("543432");
+		checkoutPage.enterMobileNumberAtBilling("abc");
+		checkoutPage.selectOptionShipToThisAddress();
+		log.info("TC_10_Step 0: Click Continue at billing");
+		checkoutPage.clickContinueButton("billing");
+		log.info("TC_10_Step 0: Click Continue at shippingMethod");
+		checkoutPage.clickContinueButton("shippingMethod");
+		log.info("TC_10_Step 0: In Payment Information, select Check/Money Order radio button");
+		checkoutPage.selectCheckMoneyOrderRadioButton();
+		log.info("TC_10_Step 0: Click Continue at payment");
+		checkoutPage.clickContinueButton("payment");
+		log.info("TC_10_Step 0: Click place order");
+		orderPage = checkoutPage.clickToPlaceOrder();
+		log.info("TC_10_Step 0: Verify if order is placed successfully");
+		verifyTrue(orderPage.isOrderPlacedSuccessfully());
+		log.info("TC_10_Step 0: Verify order number is generated - not null");
+		verifyTrue(orderPage.isOrderNumberGenerated());
+		
 		
 		
 	}
@@ -209,14 +251,16 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	LogOutSuccessPageObject logOutSucccessPage;
 	ProductListPageObject productListPage;
 	ProductPageObject productPage;
-	CheckoutCartPageObject checkoutCartPage;
+	CartPageObject cartPage;
 	CompareProductPageObject compareProductPage;
 	WishlistPageObject wishlistPage;
 	ProductReviewPageObject productReviewPage;
+	CheckoutPageObject checkoutPage;
+	OrderPageObject orderPage;
 
 	@AfterClass
 	public void cleanBrowser() {
-		driver.quit();
+	//	driver.quit();
 	}
 
 }

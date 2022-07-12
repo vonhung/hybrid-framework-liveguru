@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Anamantic Websites Testing" parallel="false">
+<suite name="Live Guru Tests" parallel="false">
 	<parameter name="url" value="http://live.techpanda.org/" />
 	
 	<listeners>
@@ -10,7 +10,7 @@
     <test name="Run On Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-<!--			<class name="com.liveguru.frontend.Register_And_Login"/> -->
+			<class name="com.liveguru.frontend.Register_And_Login"/> 
 			<class name="com.liveguru.frontend.Product_Events_And_Checkout_Flow"/>
 		</classes>
 	</test>

@@ -54,6 +54,12 @@ public class WishlistPageObject extends BasePage {
 		return PageGeneratorManager.getProductListPageObject(driver);
 	}
 
+	public CartPageObject clickAddToCart() {
+		waitForElementVisible(driver,WishlistPageUI.ADD_TO_CART_BUTTON);
+		clickToElement(driver, WishlistPageUI.ADD_TO_CART_BUTTON);
+		return PageGeneratorManager.getCheckoutCartPage(driver);
+	}
+
 
 
 }

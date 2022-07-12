@@ -1,6 +1,7 @@
 package com.liveguru.frontend;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import commons.BaseTest;
@@ -23,7 +24,9 @@ public class Register_And_Login extends BaseTest {
 	AccountInfoPageObject accountInfoPage;
 	LoginPageObject logInPage;
 	LogOutSuccessPageObject logOutSucccessPage;
-	String firstName, lastName, emailAddress, password;
+	String firstName, lastName;
+	static String emailAddress;
+	static String password;
 
 	@Parameters({ "browser", "url" })
 
@@ -41,7 +44,7 @@ public class Register_And_Login extends BaseTest {
 		
 
 	}
-
+	
 	@Test
 	public void TC_01_Register_Account() {
 		log.info("TC_O1_Step 01: Click on Account");
@@ -59,8 +62,6 @@ public class Register_And_Login extends BaseTest {
 		log.info("TC_O1_Step 05: Verify text displayed after registered successfully");
 		verifyTrue(homePage.isRegisteredSuccessfully());
 		
-		
-
 	}
 	@Test
 	public void TC_02_Verify_Account() {
@@ -90,6 +91,13 @@ public class Register_And_Login extends BaseTest {
 		log.info("TC_O3_Step 07: Verify dashboard header text displayed");
 		verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed(firstName,lastName));
 		
+	}
+	
+	@DataProvider (name = "registerAccountDataProvider")
+	public static Object[][] Account_Data_Provider(){
+		Object[][] accountData = new Object[][] {{emailAddress,password}};
+		System.out.println("Registered Account is: " + emailAddress + " and password is: " + password);
+		return accountData;
 	}
 
 	@AfterClass

@@ -17,11 +17,12 @@ public class PageGeneratorManager {
 	private static AccountInfoPageObject accountInfoPage;
 	private static ProductPageObject productPage;
 	private static ProductListPageObject productListPage;
-	private static CheckoutCartPageObject checkoutCartPage;
+	private static CartPageObject checkoutCartPage;
 	private static CompareProductPageObject compareProductPage;
 	private static WishlistPageObject wishlistProductPage;
 	private static ProductReviewPageObject reviewProductPage;
-//	private static OrderPageObject orderPage;	
+	private static OrderPageObject orderPage;	
+	private static CheckoutPageObject checkoutPage;	
 	
 	public static HomePageObject getHomePage (WebDriver driver) {
 		if (homePage == null) {
@@ -79,12 +80,20 @@ public class PageGeneratorManager {
 		}
 		return productListPage;
 	}
-	public static CheckoutCartPageObject getCheckoutCartPage(WebDriver driver) {
+	public static CartPageObject getCheckoutCartPage(WebDriver driver) {
 		
 		if (checkoutCartPage == null) {
-			checkoutCartPage = new CheckoutCartPageObject(driver);
+			checkoutCartPage = new CartPageObject(driver);
 		}
 		return checkoutCartPage;
+	}
+	
+	public static CheckoutPageObject getCheckoutPage(WebDriver driver) {
+		
+		if (checkoutPage == null) {
+			checkoutPage = new CheckoutPageObject(driver);
+		}
+		return checkoutPage;
 	}
 	
 	public static CompareProductPageObject getCompareProductPage(WebDriver driver) {
@@ -120,11 +129,11 @@ public class PageGeneratorManager {
 //		return searchPage;
 //	}
 
-//	public static OrderPageObject getOrderPageObject (WebDriver driver) {
-//		
-//		if (orderPage == null) {
-//			orderPage = new OrderPageObject(driver);
-//		}
-//		return orderPage;
-//	}
+	public static OrderPageObject getOrderPageObject (WebDriver driver) {
+		
+		if (orderPage == null) {
+			orderPage = new OrderPageObject(driver);
+		}
+		return orderPage;
+	}
 }

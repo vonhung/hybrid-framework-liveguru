@@ -278,6 +278,14 @@ public class BasePage {
 			return false;
 		}
 	}
+
+	public boolean isTextNotEmptyOrNull(String textToCheck) {
+		if (textToCheck != null && !textToCheck.isEmpty()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 	
 	public void overridGlobalTimeout(WebDriver driver, long timeout) {
 		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
@@ -459,7 +467,12 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByXpath(getDynamicLocator(locator, params))));
 	}
 	
-
+	public Float parseRawPriceWithCurrecy(String rawPriceWithCurrency)
+	{
+			Float price;
+			price = Float.parseFloat(rawPriceWithCurrency.substring(1, rawPriceWithCurrency.length()));
+			return price;
+	}
 	
 	private Alert alert;
 	private Select select;

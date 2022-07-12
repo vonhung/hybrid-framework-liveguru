@@ -10,4 +10,5 @@ public class ProductReviewPageUI {
 	public static final String REVIEW_ACCEPTED_SUCCESS_MESSAGE = "//li[@class='success-msg']//span['Your review has been accepted for moderation.']";
 	public static final String REVIEW_SUMMARY = "//input[@id='summary_field']";
 	public static final String NICK_NAME = "//input[@id='nickname_field']";
+	public static final String GO_TO_WISHLIST_LINK = "//div[@class='block block-wishlist']//div[@class='actions']/a";
 }

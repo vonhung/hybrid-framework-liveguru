@@ -49,5 +49,11 @@ public class ProductReviewPageObject extends BasePage {
 		return isElementDisplayed(driver, ProductReviewPageUI.REVIEW_ACCEPTED_SUCCESS_MESSAGE);
 	}
 
+	public WishlistPageObject clickOnGoToWishlistLink() {
+		waitForElementVisible(driver,ProductReviewPageUI.GO_TO_WISHLIST_LINK);
+		clickToElement(driver, ProductReviewPageUI.GO_TO_WISHLIST_LINK);		
+		return PageGeneratorManager.getWishlistPage(driver);
+	}
+
 
 }

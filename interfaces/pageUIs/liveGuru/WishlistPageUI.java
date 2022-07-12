@@ -10,5 +10,6 @@ public class WishlistPageUI {
 	public static final String ADDED_WISHLIST_PRODUCT_NAME = "//td[@class='wishlist-cell1 customer-wishlist-item-info']//a[text()='%s']";
 	public static final String SHARED_WISHLIST_SUCCESS_MESSAGE = "//li[@class='success-msg']//span[text()='Your Wishlist has been shared.']";
 	public static final String TV_MENU_LINK = "//div[@id='header-nav']//a[text()='TV']";
+	public static final String ADD_TO_CART_BUTTON = "//button[@title='Add to Cart']";
 
 }
