@@ -18,6 +18,7 @@ import pageObjects.liveGuru.ProductListPageObject;
 import pageObjects.liveGuru.ProductPageObject;
 import pageObjects.liveGuru.ProductReviewPageObject;
 import pageObjects.liveGuru.RegisterPageObject;
+import pageObjects.liveGuru.SearchPageObject;
 import pageObjects.liveGuru.WishlistPageObject;
 
 import org.openqa.selenium.WebDriver;
@@ -235,11 +236,26 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		
 		
 	}
-	//@Test
+	@Test
 	public void TC_11_Verify_Search_Functionality() {
-		log.info("TC_O3_Step 01: Click on Account");
-		
-		
+		log.info("TC_11_Step 0: Click on Homepage icon");
+		homePage = orderPage.clickOnHomepageIcon();
+		log.info("TC_11_Step 0: Click on Quicklink Advanced Search");
+		searchPage = homePage.clickOnAdvanceSearchLink();
+		log.info("TC_11_Step 0: Enter price range 0-150");
+		searchPage.enterSearchPriceRange("","");
+		log.info("TC_11_Step 0: Click Search button");
+		searchPage.clickOnSearchButton();
+		log.info("TC_11_Step 0: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
+		verifyTrue(searchPage.isSearchResultReturned());
+		log.info("TC_11_Step 0: Back to previous page");
+		searchPage.backToPage(driver);;
+		log.info("TC_11_Step 0: Enter price range 151-1000");
+		searchPage.enterSearchPriceRange("","");
+		log.info("TC_11_Step 0: Click Search button");
+		searchPage.clickOnSearchButton();
+		log.info("TC_11_Step 0: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
+		verifyTrue(searchPage.isSearchResultReturned());
 	}
 	
 	
@@ -257,6 +273,7 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	ProductReviewPageObject productReviewPage;
 	CheckoutPageObject checkoutPage;
 	OrderPageObject orderPage;
+	SearchPageObject searchPage;
 
 	@AfterClass
 	public void cleanBrowser() {

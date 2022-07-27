@@ -13,7 +13,7 @@ public class PageGeneratorManager {
 	private static LoginPageObject loginPage;
 	private static DashboardPageObject dashboardPage;
 	private static LogOutSuccessPageObject logOutSuccessPage;
-//	private static SearchPageObject searchPage;	
+	private static SearchPageObject searchPage;	
 	private static AccountInfoPageObject accountInfoPage;
 	private static ProductPageObject productPage;
 	private static ProductListPageObject productListPage;
@@ -121,13 +121,13 @@ public class PageGeneratorManager {
 	}
 
 	
-//	public static SearchPageObject getSearchPageObject (WebDriver driver) {
-//		
-//		if (searchPage == null) {
-//			searchPage = new SearchPageObject(driver);
-//		}
-//		return searchPage;
-//	}
+	public static SearchPageObject getSearchPageObject (WebDriver driver) {
+		
+		if (searchPage == null) {
+			searchPage = new SearchPageObject(driver);
+		}
+		return searchPage;
+	}
 
 	public static OrderPageObject getOrderPageObject (WebDriver driver) {
 		

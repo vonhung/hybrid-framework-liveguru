@@ -5,5 +5,6 @@ public class HomePageUI {
 	public static final String REGISTER_MEMU_LINK = "//div [@id='header-account']// a[@title='Register']";
 	public static final String REGISTER_SUCCESS_MESSAGE = "//li[@class='success-msg'] //span [text() = 'Thank you for registering with Main Website Store.']";
 	public static final String MOBILE_MENU = "//div[@id='header-nav']//a[text()='Mobile']";
+	public static final String QUICK_SEARCH_LINK = null;
 
 }

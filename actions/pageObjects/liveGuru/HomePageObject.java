@@ -35,4 +35,11 @@ public class HomePageObject extends BasePage {
 		return PageGeneratorManager.getProductListPageObject(driver);
 	}
 
+	public SearchPageObject clickOnAdvanceSearchLink() {
+		waitForElementVisible(driver,HomePageUI.QUICK_SEARCH_LINK);
+		clickToElement(driver, HomePageUI.QUICK_SEARCH_LINK);
+		return PageGeneratorManager.getSearchPageObject(driver);
+		
+	}
+
 }

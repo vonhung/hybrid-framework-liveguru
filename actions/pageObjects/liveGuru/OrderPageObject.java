@@ -3,6 +3,7 @@ package pageObjects.liveGuru;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import pageUIs.liveGuru.HomePageUI;
 import pageUIs.liveGuru.OrderPageUI;
 
 public class OrderPageObject extends BasePage {
@@ -22,6 +23,12 @@ public class OrderPageObject extends BasePage {
 		String orderNumber = getElementText(driver, OrderPageUI.ORDER_NUMBER_TEXT);
 		System.out.println("Order Number is: " + orderNumber);
 		return isTextNotEmptyOrNull(orderNumber);
+	}
+
+	public HomePageObject clickOnHomepageIcon() {
+		waitForElementVisible(driver, OrderPageUI.HOME_ICON);
+		clickToElement(driver, OrderPageUI.HOME_ICON);
+		return PageGeneratorManager.getHomePage(driver);
 	}
 
 }
