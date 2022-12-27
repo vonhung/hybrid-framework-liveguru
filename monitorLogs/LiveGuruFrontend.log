@@ -1,0 +1,1235 @@
+[INFO ] [2022-12-07 16:00:19,267] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 16:00:19,268] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 16:00:19,274] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:00:37,273] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 16:00:37,688] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 16:00:38,716] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 16:00:40,216] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 16:00:42,729] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 16:00:42,780]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:00:42,789] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 16:00:43,473] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 16:00:43,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:00:43,744]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:00:43,915]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:00:43,919] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 16:00:44,003] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 16:00:44,913] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 16:00:44,970] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 16:00:45,569] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 16:00:45,867] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 16:00:46,984] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 16:00:47,017]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:11:33,766] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 16:11:33,767] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 16:11:33,775] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:11:47,484] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 16:11:47,831] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 16:11:48,874] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 16:11:50,264] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 16:11:51,881] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 16:11:51,925]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:11:51,935] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 16:11:53,302] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 16:11:53,343]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:11:53,724]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:11:53,765]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:11:53,770] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 16:11:53,857] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 16:11:54,689] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 16:11:54,760] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 16:11:56,018] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 16:11:56,262] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 16:11:57,271] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 16:11:57,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:22,098] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 16:13:22,101] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 16:13:22,107] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:13:35,606] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 16:13:35,980] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 16:13:37,216] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 16:13:38,808] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 16:13:41,182] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 16:13:41,271]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:41,283] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 16:13:41,935] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 16:13:41,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:42,359]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:42,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:42,404] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 16:13:42,497] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 16:13:43,427] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 16:13:44,134] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 16:13:44,916] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 16:13:45,156] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 16:13:46,191] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 16:13:46,248]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:13:46,256] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:14:00,521] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:14:02,632] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-07 16:14:02,683] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-07 16:14:06,565] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-07 16:14:06,629] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-07 16:14:06,629]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:06,632] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-07 16:14:08,431] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-07 16:14:08,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:08,476] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-07 16:14:08,721] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-07 16:14:10,113] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-07 16:14:10,171]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:10,181] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-07 16:14:10,632] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-07 16:14:12,074] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-07 16:14:12,125]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:12,318]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:12,319] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-07 16:14:13,275] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-07 16:14:13,314]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:13,322] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:14:14,155] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:14:15,172] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:14:15,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:15,224] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-07 16:14:16,193] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-07 16:14:16,256]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:16,267] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-07 16:14:18,386] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-07 16:14:18,434]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:18,435] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-07 16:14:18,482]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:18,483] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-07 16:14:18,562] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-07 16:14:19,600] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-07 16:14:20,686] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-07 16:14:20,727]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:20,727] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-07 16:14:21,801] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-07 16:14:21,893] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-07 16:14:22,296] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-07 16:14:23,343] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-07 16:14:23,380]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:23,381] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-07 16:14:24,007] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-07 16:14:24,077]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:24,085] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-07 16:14:25,043] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-07 16:14:26,900] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-07 16:14:27,755] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:14:28,155] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-07 16:14:28,248] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-07 16:14:28,307]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:28,341]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:28,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:28,536] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-07 16:14:29,057] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:14:30,253] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-07 16:14:31,680] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-07 16:14:31,758]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:31,791] TC_10_Step 0: Click on Go to Wishlist link
+[INFO ] [2022-12-07 16:14:32,488] TC_10_Step 0: Click Add To Cart
+[INFO ] [2022-12-07 16:14:33,908] TC_10_Step 0: Verify Added message
+[INFO ] [2022-12-07 16:14:33,970]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:33,970] TC_10_Step 0: Select dropdown State/Province New York
+[INFO ] [2022-12-07 16:14:34,104] TC_10_Step 0: Enter Zipcode 543432
+[INFO ] [2022-12-07 16:14:34,234] TC_10_Step 0: Click Estimate
+[INFO ] [2022-12-07 16:14:35,652] TC_10_Step 0: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-07 16:14:35,699]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-07 16:14:35,699] TC_10_Step 0: Select Shipping Cost
+[INFO ] [2022-12-07 16:14:36,180] TC_10_Step 0: Click Update Total
+[INFO ] [2022-12-07 16:14:37,593] TC_10_Step 0: Verify Total updated
+[INFO ] [2022-12-07 16:14:37,855]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:37,857] TC_10_Step 0: Click Proceed to Checkout
+[INFO ] [2022-12-07 16:14:39,550] TC_10_Step 0: Enter Billing Information
+[INFO ] [2022-12-07 16:14:40,441] TC_10_Step 0: Click Continue at billing
+[INFO ] [2022-12-07 16:14:40,552] TC_10_Step 0: Click Continue at shippingMethod
+[INFO ] [2022-12-07 16:14:41,715] TC_10_Step 0: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-07 16:14:42,269] TC_10_Step 0: Click Continue at payment
+[INFO ] [2022-12-07 16:14:42,328] TC_10_Step 0: Click place order
+[INFO ] [2022-12-07 16:14:42,809] TC_10_Step 0: Verify if order is placed successfully
+[INFO ] [2022-12-07 16:14:44,099]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:44,099] TC_10_Step 0: Verify order number is generated - not null
+[INFO ] [2022-12-07 16:14:44,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:44,148] TC_11_Step 0: Click on Homepage icon
+[INFO ] [2022-12-07 16:14:44,983] TC_11_Step 0: Click on Quicklink Advanced Search
+[INFO ] [2022-12-07 16:14:45,713] TC_11_Step 0: Enter price range 0-150
+[INFO ] [2022-12-07 16:14:45,973] TC_11_Step 0: Click Search button
+[INFO ] [2022-12-07 16:14:46,725] TC_11_Step 0: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-07 16:14:46,779]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:14:46,780] TC_11_Step 0: Back to previous page
+[INFO ] [2022-12-07 16:14:47,008] TC_11_Step 0: Enter price range 151-1000
+[INFO ] [2022-12-07 16:15:27,841] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-07 16:15:27,843] OS name = mac os x
+[INFO ] [2022-12-07 16:15:27,843] Driver instance name = chromedriver: chrome on mac (fa682cca38236f3adf04702f3bc07c2a)
+[INFO ] [2022-12-07 16:22:05,818] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 16:22:05,819] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 16:22:05,825] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:22:19,408] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 16:22:19,821] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 16:22:20,898] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 16:22:22,419] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 16:22:24,219] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 16:22:24,270]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:24,279] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 16:22:25,926] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 16:22:25,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:26,364]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:26,406]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:26,411] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 16:22:26,509] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 16:22:27,431] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 16:22:27,499] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 16:22:28,668] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 16:22:28,897] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 16:22:30,017] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 16:22:30,065]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:30,072] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:22:43,436] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:22:45,445] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-07 16:22:45,503] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-07 16:22:50,057] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-07 16:22:50,127] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-07 16:22:50,127]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:50,137] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-07 16:22:51,956] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-07 16:22:52,000]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:52,000] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-07 16:22:52,197] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-07 16:22:53,544] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-07 16:22:53,594]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:53,606] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-07 16:22:54,141] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-07 16:22:55,511] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-07 16:22:55,556]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:55,680]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:55,685] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-07 16:22:56,633] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-07 16:22:56,667]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:56,677] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:22:57,522] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:22:58,522] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:22:58,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:22:58,579] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-07 16:22:59,955] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-07 16:23:00,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:00,451] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-07 16:23:02,395] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-07 16:23:02,443]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:02,443] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-07 16:23:02,496]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:02,497] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-07 16:23:02,575] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-07 16:23:03,501] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-07 16:23:04,604] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-07 16:23:04,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:04,643] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-07 16:23:05,660] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-07 16:23:05,823] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-07 16:23:05,935] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-07 16:23:06,912] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-07 16:23:06,949]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:06,950] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-07 16:23:07,700] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-07 16:23:07,762]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:07,768] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-07 16:23:08,526] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-07 16:23:09,894] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-07 16:23:11,346] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:23:11,764] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-07 16:23:11,865] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-07 16:23:11,906]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:11,951]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:12,285]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:12,286] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-07 16:23:12,894] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:23:13,675] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-07 16:23:15,069] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-07 16:23:15,136]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:15,146] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-07 16:23:15,853] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-07 16:23:17,273] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-07 16:23:17,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:17,310] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-07 16:23:17,503] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-07 16:23:17,657] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-07 16:23:19,161] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-07 16:23:19,200]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-07 16:23:19,201] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-07 16:23:19,636] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-07 16:23:20,923] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-07 16:23:21,192]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:21,197] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-07 16:23:22,828] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-07 16:23:23,710] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-07 16:23:23,827] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-07 16:23:24,983] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-07 16:23:25,452] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-07 16:23:25,515] TC_10_Step 17: Click place order
+[INFO ] [2022-12-07 16:23:26,164] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-07 16:23:27,193]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:27,194] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-07 16:23:27,229]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:27,244] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-07 16:23:27,955] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-07 16:23:28,663] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-07 16:23:28,864] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-07 16:23:29,557] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-07 16:23:29,608]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:23:29,609] TC_11_Step 06: Back to previous page
+[INFO ] [2022-12-07 16:23:29,812] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-07 16:24:10,575] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-07 16:24:10,577] OS name = mac os x
+[INFO ] [2022-12-07 16:24:10,577] Driver instance name = chromedriver: chrome on mac (0cb35a9bb12f0b91beb48014240b9b29)
+[INFO ] [2022-12-07 16:27:52,072] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 16:27:52,074] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 16:27:52,089] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:28:05,935] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 16:28:06,308] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 16:28:07,674] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 16:28:09,428] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 16:28:11,633] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 16:28:11,740]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:11,751] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 16:28:12,439] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 16:28:12,486]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:12,617]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:12,660]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:12,665] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 16:28:12,771] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 16:28:13,744] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 16:28:13,806] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 16:28:14,577] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 16:28:14,781] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 16:28:15,818] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 16:28:15,862]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:15,870] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 16:28:31,000] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:28:33,118] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-07 16:28:33,164] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-07 16:28:36,919] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-07 16:28:37,318] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-07 16:28:37,319]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:37,321] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-07 16:28:38,780] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-07 16:28:38,825]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:38,825] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-07 16:28:39,020] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-07 16:28:40,456] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-07 16:28:40,515]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:40,529] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-07 16:28:40,985] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-07 16:28:42,296] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-07 16:28:42,357]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:42,484]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:42,484] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-07 16:28:43,635] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-07 16:28:43,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:43,680] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-07 16:28:44,307] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:28:45,384] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-07 16:28:45,443]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:45,443] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-07 16:28:46,842] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-07 16:28:46,900]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:46,901] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-07 16:28:49,077] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-07 16:28:49,133]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:49,133] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-07 16:28:49,173]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:49,173] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-07 16:28:49,266] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-07 16:28:50,037] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-07 16:28:51,181] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-07 16:28:51,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:51,221] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-07 16:28:52,205] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-07 16:28:52,308] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-07 16:28:52,414] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-07 16:28:53,491] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-07 16:28:53,529]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:53,529] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-07 16:28:54,139] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-07 16:28:54,209]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:54,219] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-07 16:28:55,324] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-07 16:28:57,355] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-07 16:28:58,617] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:28:59,067] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-07 16:28:59,183] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-07 16:28:59,226]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:59,264]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:59,325]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:28:59,326] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-07 16:28:59,592] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 16:29:00,853] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-07 16:29:02,308] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-07 16:29:02,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:02,377] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-07 16:29:03,023] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-07 16:29:04,575] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-07 16:29:04,616]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:04,616] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-07 16:29:05,065] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-07 16:29:05,215] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-07 16:29:06,474] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-07 16:29:06,510]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-07 16:29:06,511] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-07 16:29:06,691] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-07 16:29:07,979] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-07 16:29:08,145]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:08,150] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-07 16:29:09,710] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-07 16:29:10,671] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-07 16:29:10,793] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-07 16:29:11,942] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-07 16:29:12,464] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-07 16:29:12,523] TC_10_Step 17: Click place order
+[INFO ] [2022-12-07 16:29:12,972] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-07 16:29:14,144]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:14,144] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-07 16:29:14,244]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:14,251] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-07 16:29:14,987] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-07 16:29:15,709] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-07 16:29:15,907] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-07 16:29:16,602] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-07 16:29:16,654]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 16:29:16,655] TC_11_Step 06: Back to previous page
+[INFO ] [2022-12-07 16:29:16,853] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-07 16:29:57,514] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-07 16:29:57,515] OS name = mac os x
+[INFO ] [2022-12-07 16:29:57,515] Driver instance name = chromedriver: chrome on mac (8099db1f7a3464d78a56e9f528413470)
+[INFO ] [2022-12-07 17:32:11,169] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 17:32:11,171] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 17:32:11,177] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 17:32:26,519] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 17:32:27,003] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 17:32:28,534] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 17:32:30,070] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 17:32:31,679] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 17:32:31,730]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:31,738] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 17:32:33,509] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 17:32:33,548]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:33,619]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:33,662]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:33,667] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 17:32:33,775] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 17:32:34,699] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 17:32:34,766] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 17:32:35,446] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 17:32:36,089] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 17:32:37,173] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 17:32:37,222]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:37,231] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-07 17:32:42,854] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-07 17:32:44,937] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-07 17:32:45,223] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-07 17:32:48,086] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-07 17:32:48,135] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-07 17:32:48,135]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:48,141] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-07 17:32:49,945] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-07 17:32:49,982]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:49,982] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-07 17:32:50,190] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-07 17:32:51,338] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-07 17:32:51,417]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:51,435] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-07 17:32:51,880] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-07 17:32:53,138] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-07 17:32:53,194]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:53,355]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:53,359] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-07 17:32:54,323] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-07 17:32:54,363]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:54,371] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-07 17:32:55,598] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-07 17:32:56,611] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-07 17:32:56,660]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:56,661] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-07 17:32:57,774] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-07 17:32:57,815]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:57,815] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-07 17:32:59,833] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-07 17:32:59,887]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:59,887] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-07 17:32:59,924]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:32:59,925] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-07 17:33:00,001] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-07 17:33:00,830] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-07 17:33:02,180] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-07 17:33:02,218]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:02,218] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-07 17:33:03,636] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-07 17:33:03,766] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-07 17:33:03,881] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-07 17:33:04,986] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-07 17:33:05,022]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:05,022] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-07 17:33:05,718] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-07 17:33:05,940]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:05,946] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-07 17:33:06,807] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-07 17:33:08,237] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-07 17:33:09,481] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 17:33:10,195] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-07 17:33:10,315] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-07 17:33:10,354]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:10,391]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:10,585]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:10,586] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-07 17:33:10,991] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-07 17:33:12,021] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-07 17:33:13,443] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-07 17:33:14,085]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:14,093] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-07 17:33:14,744] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-07 17:33:16,270] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-07 17:33:16,308]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:16,308] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-07 17:33:16,515] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-07 17:33:16,642] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-07 17:33:18,029] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-07 17:33:18,071]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-07 17:33:18,072] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-07 17:33:18,477] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-07 17:33:19,692] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-07 17:33:20,013]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:20,018] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-07 17:33:21,606] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-07 17:33:22,512] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-07 17:33:22,637] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-07 17:33:23,780] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-07 17:33:24,246] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-07 17:33:24,300] TC_10_Step 17: Click place order
+[INFO ] [2022-12-07 17:33:24,976] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-07 17:33:26,265]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:26,265] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-07 17:33:26,340]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:26,349] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-07 17:33:27,151] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-07 17:33:27,877] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-07 17:33:28,098] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-07 17:33:28,845] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-07 17:33:28,896]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:28,897] TC_11_Step 06: Click to Modify Search link
+[INFO ] [2022-12-07 17:33:29,832] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-07 17:33:30,159] TC_11_Step 08: Click Search button
+[INFO ] [2022-12-07 17:33:30,782] TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-07 17:33:30,838]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:33:30,842] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-07 17:33:30,842] OS name = mac os x
+[INFO ] [2022-12-07 17:33:30,842] Driver instance name = chromedriver: chrome on mac (c0d0f1069481b09298949429a3596d9b)
+[INFO ] [2022-12-07 17:42:54,063] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-07 17:42:54,065] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-07 17:42:54,073] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-07 17:43:08,523] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-07 17:43:08,886] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-07 17:43:09,976] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-07 17:43:11,330] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-07 17:43:13,192] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-07 17:43:13,243]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:43:13,254] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-07 17:43:14,707] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-07 17:43:14,749]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:43:15,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:43:15,175]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:43:15,181] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-07 17:43:15,296] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-07 17:43:16,183] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-07 17:43:16,447] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-07 17:43:17,064] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-07 17:43:17,341] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-07 17:43:18,341] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-07 17:43:18,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-07 17:43:18,387] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-07 17:43:19,112] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-07 17:43:19,118] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-07 17:43:19,124] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-07 17:43:19,134] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-07 17:43:19,148] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-07 17:43:19,153] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-07 17:43:19,161] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-07 17:43:19,164] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-07 17:43:19,166] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-07 17:43:19,167] OS name = mac os x
+[INFO ] [2022-12-07 17:43:19,167] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2022-12-08 15:25:55,421] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 15:25:55,428] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 15:25:55,434] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 15:26:09,208] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 15:26:09,594] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 15:26:11,012] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 15:26:12,653] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 15:26:15,085] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 15:26:15,180]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:26:15,194] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 15:26:15,813] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 15:26:15,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:26:16,103]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:26:16,149]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:26:16,153] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 15:26:16,264] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 15:26:17,174] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 15:26:17,234] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 15:26:18,029] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 15:26:18,275] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 15:26:19,364] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 15:26:19,410]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:26:19,410] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 15:26:19,994] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 15:26:19,996] OS name = mac os x
+[INFO ] [2022-12-08 15:26:19,996] Driver instance name = chromedriver: chrome on mac (b4da8ac7b8a3c36dfce2032372d1e3e5)
+[INFO ] [2022-12-08 15:26:20,116] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 15:26:26,234] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:26:26,307] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 15:26:26,313] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 15:26:26,322] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:26:26,331] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 15:26:26,336] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 15:26:26,340] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 15:26:26,344] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 15:26:26,346] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 15:26:26,346] OS name = mac os x
+[INFO ] [2022-12-08 15:26:26,346] Driver instance name = chromedriver: chrome on mac (f9c5181cb7ddd45d5b9e646ea37efa77)
+[INFO ] [2022-12-08 15:27:57,767] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 15:27:57,768] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 15:27:57,778] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 15:28:11,566] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 15:28:11,975] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 15:28:12,999] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 15:28:14,399] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 15:28:16,633] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 15:28:16,695]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:16,710] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 15:28:17,454] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 15:28:17,500]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:17,542]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:17,923]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:17,929] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 15:28:18,021] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 15:28:18,945] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 15:28:19,016] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 15:28:20,021] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 15:28:20,297] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 15:28:21,366] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 15:28:21,413]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:21,413] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 15:28:22,665] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 15:28:28,774] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:28:30,620] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-08 15:28:30,673] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-08 15:28:32,961] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-08 15:28:33,024] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-08 15:28:33,024]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:33,028] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 15:28:34,779] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-08 15:28:34,834]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:34,834] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-08 15:28:35,062] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-08 15:28:36,205] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-08 15:28:36,278]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:36,285] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 15:28:36,527] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-08 15:28:39,026] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-08 15:28:39,073]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:39,127]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:39,127] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-08 15:28:40,074] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-08 15:28:40,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:40,121] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:28:41,312] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-08 15:28:42,449] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-08 15:28:42,503]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:42,504] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-08 15:28:43,783] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-08 15:28:43,899]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:43,909] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-08 15:28:46,786] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-08 15:28:46,859]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:46,860] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-08 15:28:46,900]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:46,900] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-08 15:28:46,982] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 15:28:47,787] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-08 15:28:48,981] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-08 15:28:49,041]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:49,042] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-08 15:28:50,039] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-08 15:28:50,163] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-08 15:28:50,386] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-08 15:28:51,427] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-08 15:28:51,466]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:51,466] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-08 15:28:52,818] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-08 15:28:52,887]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:52,893] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 15:28:53,852] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-08 15:28:55,387] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-08 15:28:56,390] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 15:28:56,839] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-08 15:28:56,942] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-08 15:28:56,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:57,020]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:57,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:28:57,221] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-08 15:28:57,660] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 15:28:58,736] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-08 15:29:00,129] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-08 15:29:00,185]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:00,193] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 15:29:00,843] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-08 15:29:02,458] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-08 15:29:02,498]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:02,498] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-08 15:29:02,641] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-08 15:29:02,754] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-08 15:29:04,148] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-08 15:29:04,190]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 15:29:04,191] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-08 15:29:04,258] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-08 15:29:05,936] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-08 15:29:06,206]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:06,208] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-08 15:29:07,791] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-08 15:29:08,648] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-08 15:29:08,761] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-08 15:29:09,952] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-08 15:29:10,403] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-08 15:29:10,454] TC_10_Step 17: Click place order
+[INFO ] [2022-12-08 15:29:11,221] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-08 15:29:12,887]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:12,887] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-08 15:29:12,946]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:12,954] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 15:29:13,716] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-08 15:29:14,394] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-08 15:29:14,620] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-08 15:29:15,387] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 15:29:15,439]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:15,440] TC_11_Step 06: Click to Modify Search link
+[INFO ] [2022-12-08 15:29:16,087] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-08 15:29:16,342] TC_11_Step 08: Click Search button
+[INFO ] [2022-12-08 15:29:17,065] TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 15:29:17,131]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:29:17,149] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 15:29:17,149] OS name = mac os x
+[INFO ] [2022-12-08 15:29:17,149] Driver instance name = chromedriver: chrome on mac (1a8fa0293f7121a24789a2609db9f6ac)
+[INFO ] [2022-12-08 15:34:56,733] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 15:34:56,745] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 15:34:56,785] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 15:35:10,357] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 15:35:10,742] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 15:35:12,168] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 15:35:13,847] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 15:35:16,128] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 15:35:16,196]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:16,210] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 15:35:16,864] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 15:35:16,905]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:17,068]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:17,112]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:17,117] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 15:35:17,236] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 15:35:18,197] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 15:35:18,307] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 15:35:19,112] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 15:35:19,343] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 15:35:20,529] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 15:35:20,583]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:20,583] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 15:35:21,347] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 15:35:27,522] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:35:29,548] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-08 15:35:29,773] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-08 15:35:32,785] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-08 15:35:33,214] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-08 15:35:33,215]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:33,220] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 15:35:34,582] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-08 15:35:34,816]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:34,817] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-08 15:35:34,941] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-08 15:35:52,423] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-08 15:35:52,504]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:52,509] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 15:35:52,977] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-08 15:35:54,772] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-08 15:35:54,832]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:54,971]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:54,971] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-08 15:35:55,982] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-08 15:35:56,017]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:56,022] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 15:35:57,207] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-08 15:35:58,259] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-08 15:35:58,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:58,313] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-08 15:35:59,488] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-08 15:35:59,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:35:59,538] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-08 15:36:01,555] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-08 15:36:01,607]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:01,607] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-08 15:36:01,643]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:01,644] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-08 15:36:01,727] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 15:36:02,526] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-08 15:36:03,746] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-08 15:36:03,788]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:03,788] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-08 15:36:05,512] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-08 15:36:05,613] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-08 15:36:06,096] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-08 15:36:07,179] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-08 15:36:07,235]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:07,236] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-08 15:36:08,075] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-08 15:36:08,158]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:08,164] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 15:36:08,964] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-08 15:36:10,822] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-08 15:36:11,735] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 15:36:12,110] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-08 15:36:12,195] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-08 15:36:12,230]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:12,276]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:12,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:12,520] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-08 15:36:13,289] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 15:36:13,918] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-08 15:36:15,290] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-08 15:36:15,361]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:15,371] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 15:36:16,072] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-08 15:36:17,608] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-08 15:36:17,648]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:17,648] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-08 15:36:17,757] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-08 15:36:17,876] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-08 15:36:19,267] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-08 15:36:19,305]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 15:36:19,305] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-08 15:36:19,739] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-08 15:36:21,153] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-08 15:36:21,395]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:21,396] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-08 15:36:23,125] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-08 15:36:23,988] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-08 15:36:24,125] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-08 15:36:25,304] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-08 15:36:25,810] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-08 15:36:25,865] TC_10_Step 17: Click place order
+[INFO ] [2022-12-08 15:36:26,411] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-08 15:36:27,727]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:27,728] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-08 15:36:27,759]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:28,079] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 15:36:28,817] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-08 15:36:30,619] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-08 15:36:31,137] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-08 15:36:31,960] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 15:36:32,558]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:32,559] TC_11_Step 06: Click to Modify Search link
+[INFO ] [2022-12-08 15:36:33,264] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-08 15:36:33,510] TC_11_Step 08: Click Search button
+[INFO ] [2022-12-08 15:36:34,242] TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 15:36:34,290]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 15:36:34,293] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 15:36:34,293] OS name = mac os x
+[INFO ] [2022-12-08 15:36:34,293] Driver instance name = chromedriver: chrome on mac (7fe2236c86aadb0bc9d59bdb38ddc7f8)
+[INFO ] [2022-12-08 16:11:38,574] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 16:11:38,575] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 16:11:38,581] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 16:11:54,758] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 16:11:55,142] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 16:11:56,556] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 16:11:58,249] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 16:11:59,856] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 16:11:59,909]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:11:59,919] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 16:12:01,434] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 16:12:01,478]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:01,706]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:01,746]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:01,751] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 16:12:01,852] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 16:12:02,754] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 16:12:02,928] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 16:12:03,527] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 16:12:03,754] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 16:12:04,799] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 16:12:04,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:04,846] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 16:12:05,566] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 16:12:05,567] OS name = mac os x
+[INFO ] [2022-12-08 16:12:05,567] Driver instance name = chromedriver: chrome on mac (aafea9b748c6438abef2ddb83c578db6)
+[INFO ] [2022-12-08 16:12:39,865] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 16:12:39,866] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 16:12:39,873] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 16:12:53,283] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 16:12:53,661] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 16:12:54,730] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 16:12:56,203] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 16:12:58,418] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 16:12:58,471]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:58,483] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 16:12:59,269] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 16:12:59,303]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:59,684]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:59,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:12:59,730] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 16:12:59,840] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 16:13:00,878] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 16:13:01,226] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 16:13:01,993] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 16:13:02,257] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 16:13:03,271] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 16:13:03,316]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:13:03,316] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 16:13:03,955] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 16:13:03,956] OS name = mac os x
+[INFO ] [2022-12-08 16:13:03,956] Driver instance name = chromedriver: chrome on mac (c5aebf3e6daf11ad36e8e7b93b3948e6)
+[INFO ] [2022-12-08 16:13:04,074] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 16:13:10,108] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:13:10,428] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 16:13:10,594] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 16:13:10,769] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:13:10,950] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 16:13:11,119] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 16:13:11,309] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 16:13:11,489] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 16:13:11,661] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 16:13:11,661] OS name = mac os x
+[INFO ] [2022-12-08 16:13:11,661] Driver instance name = chromedriver: chrome on mac (d4f08da13cdef42665be9b00d363e457)
+[INFO ] [2022-12-08 16:14:08,833] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 16:14:08,834] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 16:14:08,840] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 16:14:22,391] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 16:14:22,756] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 16:14:24,082] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 16:14:25,703] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 16:14:27,298] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 16:14:27,349]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:27,359] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 16:14:28,896] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 16:14:28,938]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:29,320]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:29,365]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:29,369] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 16:14:29,464] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 16:14:30,349] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 16:14:30,419] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 16:14:31,294] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 16:14:31,523] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 16:14:32,570] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 16:14:32,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:32,610] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 16:14:33,299] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 16:14:39,385] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:14:41,614] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-08 16:14:41,841] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-08 16:14:44,710] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-08 16:14:44,767] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-08 16:14:44,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:44,774] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 16:14:46,924] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-08 16:14:46,981]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:46,981] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-08 16:14:47,077] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-08 16:14:48,770] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-08 16:14:48,841]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:48,848] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 16:14:49,000] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-08 16:14:51,032] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-08 16:14:51,080]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:51,132]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:51,132] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-08 16:14:52,763] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-08 16:14:52,817]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:52,826] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:14:53,730] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-08 16:14:54,914] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-08 16:14:54,966]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:54,967] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-08 16:14:56,381] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-08 16:14:56,438]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:56,438] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-08 16:14:58,596] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-08 16:14:58,631]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:58,632] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-08 16:14:58,697]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:14:58,698] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-08 16:14:58,806] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 16:14:59,567] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-08 16:15:00,728] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-08 16:15:00,769]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:00,769] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-08 16:15:01,983] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-08 16:15:02,310] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-08 16:15:02,423] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-08 16:15:03,474] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-08 16:15:03,511]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:03,512] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-08 16:15:04,223] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-08 16:15:04,301]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:04,305] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 16:15:05,104] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-08 16:15:06,569] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-08 16:15:07,790] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 16:15:08,853] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-08 16:15:08,976] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-08 16:15:09,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:09,056]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:09,115]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:09,116] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-08 16:15:09,199] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 16:15:10,509] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-08 16:15:12,000] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-08 16:15:12,066]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:12,087] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 16:15:12,898] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-08 16:15:14,346] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-08 16:15:14,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:14,388] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-08 16:15:14,521] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-08 16:15:14,665] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-08 16:15:16,184] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-08 16:15:16,220]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 16:15:16,221] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-08 16:15:16,649] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-08 16:15:17,993] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-08 16:15:18,325]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:18,326] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-08 16:15:20,018] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-08 16:15:20,922] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-08 16:15:21,043] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-08 16:15:22,192] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-08 16:15:22,759] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-08 16:15:22,832] TC_10_Step 17: Click place order
+[INFO ] [2022-12-08 16:15:23,317] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-08 16:15:24,467]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:24,467] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-08 16:15:24,501]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:24,754] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 16:15:25,462] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-08 16:15:26,120] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-08 16:15:26,307] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-08 16:15:26,925] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 16:15:26,974]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:26,974] TC_11_Step 06: Click to Modify Search link
+[INFO ] [2022-12-08 16:15:27,575] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-08 16:15:27,893] TC_11_Step 08: Click Search button
+[INFO ] [2022-12-08 16:15:28,614] TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 16:15:28,681]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:15:28,686] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 16:15:28,687] OS name = mac os x
+[INFO ] [2022-12-08 16:15:28,687] Driver instance name = chromedriver: chrome on mac (a4d1f495b969a24d3d74bca9af1ad299)
+[INFO ] [2022-12-08 16:18:44,673] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 16:18:44,675] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 16:18:44,681] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 16:18:58,244] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 16:18:58,619] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 16:19:00,002] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 16:19:01,570] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 16:19:03,241] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 16:19:03,292]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:03,306] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 16:19:04,558] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 16:19:04,595]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:04,672]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:04,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:04,722] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 16:19:04,783] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 16:19:05,741] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 16:19:05,812] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 16:19:06,913] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 16:19:07,272] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 16:19:08,407] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 16:19:08,453]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:08,453] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 16:19:09,141] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 16:19:15,120] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:19:17,072] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-08 16:19:17,277] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-08 16:19:20,233] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-08 16:19:20,634] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-08 16:19:20,634]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:20,639] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 16:19:21,966] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-08 16:19:22,019]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:22,020] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-08 16:19:22,343] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-08 16:19:30,150] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-08 16:19:30,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:30,226] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 16:19:30,523] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-08 16:19:32,210] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-08 16:19:32,261]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:32,335]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:32,341] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-08 16:19:33,358] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-08 16:19:33,399]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:33,406] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 16:19:34,756] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-08 16:19:35,871] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-08 16:19:35,920]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:35,920] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-08 16:19:37,107] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-08 16:19:37,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:37,152] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-08 16:19:39,215] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-08 16:19:39,290]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:39,290] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-08 16:19:39,325]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:39,325] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-08 16:19:39,413] TC_O8_Step 01: Click on TV
+[INFO ] [2022-12-08 16:19:40,173] TC_O8_Step 02: Click on Add To Wishlist link
+[INFO ] [2022-12-08 16:19:41,600] TC_O8_Step 08: Verify message product added to wishlist
+[INFO ] [2022-12-08 16:19:41,846]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:41,847] TC_O8_Step 10: Click Share wishlist button
+[INFO ] [2022-12-08 16:19:42,925] TC_O8_Step 11: Enter receive email
+[INFO ] [2022-12-08 16:19:43,054] TC_O8_Step 12: Enter message
+[INFO ] [2022-12-08 16:19:43,170] TC_O8_Step 13: Click Share wishlist button
+[INFO ] [2022-12-08 16:19:44,281] TC_O8_Step 14: Verify Share wishlist message
+[INFO ] [2022-12-08 16:19:44,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:44,323] TC_O8_Step 15: Click on My Wishlist menu link
+[INFO ] [2022-12-08 16:19:45,240] TC_O8_Step 16: Verify product name is displayed
+[INFO ] [2022-12-08 16:19:45,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:45,315] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 16:19:46,403] TC_O9_Step 02: Click on Product
+[INFO ] [2022-12-08 16:19:52,279] TC_O9_Step 03: Click on Add Your Review button
+[INFO ] [2022-12-08 16:19:53,910] TC_O9_Step 04: Send empty value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 16:19:54,319] TC_O9_Step 05: Click Submit Review button
+[INFO ] [2022-12-08 16:19:54,439] TC_O9_Step 06: Verify validatation messages shown
+[INFO ] [2022-12-08 16:19:54,492]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:54,538]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:54,759]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:54,759] TC_O9_Step 07: Select the rating rate
+[INFO ] [2022-12-08 16:19:55,055] TC_O9_Step 08: Send actual value to the review fields: thought, summay, and nickname
+[INFO ] [2022-12-08 16:19:56,351] TC_O9_Step 09: Click Submit Review button
+[INFO ] [2022-12-08 16:19:57,663] TC_O9_Step 10: Verify review accepted message shown
+[INFO ] [2022-12-08 16:19:57,722]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:19:57,745] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 16:19:58,474] TC_10_Step 02: Click Add To Cart
+[INFO ] [2022-12-08 16:20:00,008] TC_10_Step 03: Verify Added message
+[INFO ] [2022-12-08 16:20:00,049]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:00,056] TC_10_Step 04: Select dropdown State/Province New York
+[INFO ] [2022-12-08 16:20:00,204] TC_10_Step 05: Enter Zipcode 543432
+[INFO ] [2022-12-08 16:20:00,366] TC_10_Step 06: Click Estimate
+[INFO ] [2022-12-08 16:20:01,975] TC_10_Step 07: verify Flat Rate Shipping $5 is generated
+[INFO ] [2022-12-08 16:20:02,016]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 16:20:02,017] TC_10_Step 08: Select Shipping Cost
+[INFO ] [2022-12-08 16:20:02,262] TC_10_Step 09: Click Update Total
+[INFO ] [2022-12-08 16:20:03,499] TC_10_Step 10: Verify Total updated
+[INFO ] [2022-12-08 16:20:03,825]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:03,826] TC_10_Step 11: Click Proceed to Checkout
+[INFO ] [2022-12-08 16:20:05,485] TC_10_Step 12: Enter Billing Information
+[INFO ] [2022-12-08 16:20:06,325] TC_10_Step 13: Click Continue at billing
+[INFO ] [2022-12-08 16:20:06,462] TC_10_Step 14: Click Continue at shippingMethod
+[INFO ] [2022-12-08 16:20:07,657] TC_10_Step 15: In Payment Information, select Check/Money Order radio button
+[INFO ] [2022-12-08 16:20:08,231] TC_10_Step 15: Click Continue at payment
+[INFO ] [2022-12-08 16:20:08,294] TC_10_Step 17: Click place order
+[INFO ] [2022-12-08 16:20:08,800] TC_10_Step 18: Verify if order is placed successfully
+[INFO ] [2022-12-08 16:20:10,022]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:10,023] TC_10_Step 19: Verify order number is generated - not null
+[INFO ] [2022-12-08 16:20:10,053]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:10,357] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 16:20:11,119] TC_11_Step 02: Click on Quicklink Advanced Search
+[INFO ] [2022-12-08 16:20:11,892] TC_11_Step 03: Enter price range 0-150
+[INFO ] [2022-12-08 16:20:12,424] TC_11_Step 04: Click Search button
+[INFO ] [2022-12-08 16:20:13,145] TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 16:20:13,203]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:13,204] TC_11_Step 06: Click to Modify Search link
+[INFO ] [2022-12-08 16:20:13,938] TC_11_Step 07: Enter price range 151-1000
+[INFO ] [2022-12-08 16:20:14,251] TC_11_Step 08: Click Search button
+[INFO ] [2022-12-08 16:20:15,064] TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria
+[INFO ] [2022-12-08 16:20:15,108]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 16:20:15,111] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 16:20:15,111] OS name = mac os x
+[INFO ] [2022-12-08 16:20:15,111] Driver instance name = chromedriver: chrome on mac (c50b1819131f0d85bf94a56545c8abac)
+[INFO ] [2022-12-08 17:52:25,367] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 17:52:25,369] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 17:52:25,375] Pre-Condition - Open browser 'chrome
+[INFO ] [2022-12-08 17:52:33,668] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 17:53:04,182] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 17:53:04,376] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 17:53:04,547] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 17:53:04,888] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 17:53:05,071] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 17:53:05,255] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 17:53:05,440] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 17:53:05,440] OS name = mac os x
+[INFO ] [2022-12-08 17:53:05,441] Driver instance name = chromedriver: chrome on mac (4d5bd853f873b452f96ffed156249945)
+[INFO ] [2022-12-08 17:53:31,816] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 17:53:31,818] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 17:54:01,974] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 17:54:01,976] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 17:54:01,988] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 17:54:14,939] TC_O4_Step 01: Click on Mobile
+[INFO ] [2022-12-08 17:54:16,555] TC_O4_Step 02: Get Cost of Soni Xperia mobile on product list page (PLP)
+[INFO ] [2022-12-08 17:54:16,733] TC_O4_Step 03: Click on Soni Xperia slot
+[INFO ] [2022-12-08 17:54:20,661] TC_O4_Step 04: Get Cost of Soni Xperia on product details page (PDP)
+[INFO ] [2022-12-08 17:54:21,144] TC_O4_Step 05: Compare cost in PLP and PDP
+[INFO ] [2022-12-08 17:54:21,146]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:21,154] TC_O5_Step 01: Click on Add To Cart button
+[INFO ] [2022-12-08 17:54:23,074] TC_O5_Step 02: Verify product added to cart
+[INFO ] [2022-12-08 17:54:23,856]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:23,856] TC_O5_Step 03: Sendkey to Discount Codes textbox
+[INFO ] [2022-12-08 17:54:24,203] TC_O5_Step 04: Click Apply
+[INFO ] [2022-12-08 17:54:25,732] TC_O5_Step 05: Verify discount amount displayed 
+[INFO ] [2022-12-08 17:54:25,824]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:25,829] TC_O6_Step 01: Sendkey to Qty field
+[INFO ] [2022-12-08 17:54:26,187] TC_O6_Step 02: Click Update button
+[INFO ] [2022-12-08 17:54:27,545] TC_O6_Step 03: Verify error message
+[INFO ] [2022-12-08 17:54:27,588]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:28,010]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:28,010] TC_O6_Step 04: Click Empty Cart
+[INFO ] [2022-12-08 17:54:28,998] TC_O6_Step 05: Verify Empty Cart
+[INFO ] [2022-12-08 17:54:29,048]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:29,054] TC_O7_Step 01: Click on Mobile
+[INFO ] [2022-12-08 17:54:30,160] TC_O7_Step 02: Click on Add To Compare for Sony Xperia
+[INFO ] [2022-12-08 17:54:31,142] TC_O7_Step 02: Verify Added To Compare for Sony Xperia
+[INFO ] [2022-12-08 17:54:31,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:31,849] TC_O7_Step 03: Click on Add To Compare for iPhone
+[INFO ] [2022-12-08 17:54:32,905] TC_O7_Step 04: Verify Added To Compare for iPhone
+[INFO ] [2022-12-08 17:54:32,965]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:32,972] TC_O7_Step 05: Click on Compare button
+[INFO ] [2022-12-08 17:54:35,982] TC_O7_Step 06: Verify Popup Window shown with heading Compare Product
+[INFO ] [2022-12-08 17:54:36,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:36,065] TC_O7_Step 07: Verify selected products in popup
+[INFO ] [2022-12-08 17:54:36,101]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 17:54:36,101] TC_O7_Step 08: Close compare popup window
+[INFO ] [2022-12-08 17:54:36,548] TC_O9_Step 01: Click on TV
+[INFO ] [2022-12-08 17:54:37,176] TC_10_Step 01: Click on Go to Wishlist link
+[INFO ] [2022-12-08 17:54:37,431] TC_11_Step 01: Click on Homepage icon
+[INFO ] [2022-12-08 17:54:37,688] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 17:54:37,688] OS name = mac os x
+[INFO ] [2022-12-08 17:54:37,689] Driver instance name = chromedriver: chrome on mac (35aa80dbcb92bbd36402a726788ae276)
+[INFO ] [2022-12-08 18:46:17,017] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 18:46:17,018] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 18:46:17,031] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 18:46:32,312] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 18:46:32,713] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 18:46:33,673] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 18:46:35,218] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 18:46:37,009] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 18:46:37,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:37,068] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 18:46:38,407] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 18:46:38,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,875] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 18:46:38,967] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 18:46:39,870] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 18:46:39,944] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 18:46:40,899] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 18:46:41,156] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 18:46:42,320] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 18:46:42,396]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 18:46:42,397] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 18:46:43,462] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 18:46:43,462] OS name = mac os x
+[INFO ] [2022-12-08 18:46:43,463] Driver instance name = chromedriver: chrome on mac (643a5d57696557751a7e4f395e129794)

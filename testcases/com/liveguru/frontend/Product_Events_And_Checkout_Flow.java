@@ -32,13 +32,12 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	shareReceiverEmail, shareMessage, emailAddress, password, orderNo;
 	Integer discountPercentage;
 
-	@Parameters({ "browser", "url" })
+	@Parameters({ "browser", "url"  })
 	@BeforeClass
 
 	public void initBrowser(String browserName, String appURL) {
 		log.info("Pre-Condition - Open browser '" + browserName + "' and navigate to '" + appURL + "'");
 		driver = getBrowserDriver(browserName, appURL);
-		driver.manage().window().maximize();
 		homePage = PageGeneratorManager.getHomePage(driver);
 		mobileProductName = "Sony Xperia";
 		productName1 = "Samsung Galaxy";
@@ -125,21 +124,12 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 		
 	}
 	@Test (dataProviderClass = Register_And_Login.class, dataProvider = "registerAccountDataProvider")
-	public void TC_08_Verify_Share_Wishlist(String emailAddress, String Password) {
+	
+	public void TC_08_Verify_Share_Wishlist(String emailAddress, String password) {
 		log.info("TC_O8_Step 01: Click on TV");
 		productListPage.clickOnMenuTV();
 		log.info("TC_O8_Step 02: Click on Add To Wishlist link");
 		wishlistPage = productListPage.clickOnAddToWishlist(tvProductName);
-//		log.info("TC_O8_Step 03: Enter Email Address");
-//		logInPage.inputEmailAddress(emailAddress);
-//		log.info("TC_O8_Step 04: Enter Password");
-//		logInPage.inputPassword(password);
-//		log.info("TC_O8_Step 05: Click Login button");
-//		wishlistPage = logInPage.clickOnLogInButtonToWishlist();
-//		log.info("TC_O8_Step 06: Click on TV");
-//		productListPage = compareProductPage.clickOnMenuTV();
-//		log.info("TC_O8_Step 07: Click on Add To Wishlist link");
-//		logInPage = productListPage.clickOnAddToWishlist(tvProductName);
 		log.info("TC_O8_Step 08: Verify message product added to wishlist");
 		verifyTrue(wishlistPage.isAddedToWishlistMessageDisplayed(tvProductName));
 		log.info("TC_O8_Step 10: Click Share wishlist button");
@@ -189,48 +179,48 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	}
 	@Test
 	public void TC_10_Verify_Purchase() {
-		log.info("TC_10_Step 0: Click on Go to Wishlist link");
+		log.info("TC_10_Step 01: Click on Go to Wishlist link");
 		wishlistPage = productReviewPage.clickOnGoToWishlistLink();
-		log.info("TC_10_Step 0: Click Add To Cart");
+		log.info("TC_10_Step 02: Click Add To Cart");
 		cartPage = wishlistPage.clickAddToCart();
-		log.info("TC_10_Step 0: Verify Added message");
+		log.info("TC_10_Step 03: Verify Added message");
 		verifyTrue(cartPage.isProductAddedToCart(tvProductName));
-		log.info("TC_10_Step 0: Select dropdown State/Province New York");
+		log.info("TC_10_Step 04: Select dropdown State/Province New York");
 		cartPage.selectDropdownState("New York");
-		log.info("TC_10_Step 0: Enter Zipcode 543432");
+		log.info("TC_10_Step 05: Enter Zipcode 543432");
 		cartPage.enterZipcode("543432");
-		log.info("TC_10_Step 0: Click Estimate");
+		log.info("TC_10_Step 06: Click Estimate");
 		cartPage.clickEstimateButton();
-		log.info("TC_10_Step 0: verify Flat Rate Shipping $5 is generated");
+		log.info("TC_10_Step 07: verify Flat Rate Shipping $5 is generated");
 		verifyTrue(cartPage.isShippingPriceGenerated("$5.00"));
-		log.info("TC_10_Step 0: Select Shipping Cost");
+		log.info("TC_10_Step 08: Select Shipping Cost");
 		cartPage.selectShippingCostRadioButton();
-		log.info("TC_10_Step 0: Click Update Total");
+		log.info("TC_10_Step 09: Click Update Total");
 		cartPage.clickUpdateTotalButton();
-		log.info("TC_10_Step 0: Verify Total updated");
+		log.info("TC_10_Step 10: Verify Total updated");
 		verifyTrue(cartPage.isShippingIncludedInTotalPrice());
-		log.info("TC_10_Step 0: Click Proceed to Checkout");
+		log.info("TC_10_Step 11: Click Proceed to Checkout");
 		checkoutPage = cartPage.clickProceedToCheckoutButton();
-		log.info("TC_10_Step 0: Enter Billing Information");
+		log.info("TC_10_Step 12: Enter Billing Information");
 		checkoutPage.enterAddressAtBilling("abc");
 		checkoutPage.enterCityAtBilling("abc");
 		checkoutPage.selectDropdownStateAtBilling("New York");
 		checkoutPage.enterZipCode("543432");
 		checkoutPage.enterMobileNumberAtBilling("abc");
 		checkoutPage.selectOptionShipToThisAddress();
-		log.info("TC_10_Step 0: Click Continue at billing");
+		log.info("TC_10_Step 13: Click Continue at billing");
 		checkoutPage.clickContinueButton("billing");
-		log.info("TC_10_Step 0: Click Continue at shippingMethod");
+		log.info("TC_10_Step 14: Click Continue at shippingMethod");
 		checkoutPage.clickContinueButton("shippingMethod");
-		log.info("TC_10_Step 0: In Payment Information, select Check/Money Order radio button");
+		log.info("TC_10_Step 15: In Payment Information, select Check/Money Order radio button");
 		checkoutPage.selectCheckMoneyOrderRadioButton();
-		log.info("TC_10_Step 0: Click Continue at payment");
+		log.info("TC_10_Step 15: Click Continue at payment");
 		checkoutPage.clickContinueButton("payment");
-		log.info("TC_10_Step 0: Click place order");
+		log.info("TC_10_Step 17: Click place order");
 		orderPage = checkoutPage.clickToPlaceOrder();
-		log.info("TC_10_Step 0: Verify if order is placed successfully");
+		log.info("TC_10_Step 18: Verify if order is placed successfully");
 		verifyTrue(orderPage.isOrderPlacedSuccessfully());
-		log.info("TC_10_Step 0: Verify order number is generated - not null");
+		log.info("TC_10_Step 19: Verify order number is generated - not null");
 		verifyTrue(orderPage.isOrderNumberGenerated());
 		
 		
@@ -238,23 +228,25 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	}
 	@Test
 	public void TC_11_Verify_Search_Functionality() {
-		log.info("TC_11_Step 0: Click on Homepage icon");
+		log.info("TC_11_Step 01: Click on Homepage icon");
 		homePage = orderPage.clickOnHomepageIcon();
-		log.info("TC_11_Step 0: Click on Quicklink Advanced Search");
+		log.info("TC_11_Step 02: Click on Quicklink Advanced Search");
 		searchPage = homePage.clickOnAdvanceSearchLink();
-		log.info("TC_11_Step 0: Enter price range 0-150");
-		searchPage.enterSearchPriceRange("","");
-		log.info("TC_11_Step 0: Click Search button");
+		log.info("TC_11_Step 03: Enter price range 0-150");
+		searchPage.enterSearchPriceFrom("0");
+		searchPage.enterSearchPriceTo("150");
+		log.info("TC_11_Step 04: Click Search button");
 		searchPage.clickOnSearchButton();
-		log.info("TC_11_Step 0: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
+		log.info("TC_11_Step 05: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
 		verifyTrue(searchPage.isSearchResultReturned());
-		log.info("TC_11_Step 0: Back to previous page");
-		searchPage.backToPage(driver);;
-		log.info("TC_11_Step 0: Enter price range 151-1000");
-		searchPage.enterSearchPriceRange("","");
-		log.info("TC_11_Step 0: Click Search button");
+		log.info("TC_11_Step 06: Click to Modify Search link");
+		searchPage.clickOnModifySearchLink();
+		log.info("TC_11_Step 07: Enter price range 151-1000");
+		searchPage.enterSearchPriceFrom("151");
+		searchPage.enterSearchPriceTo("1000");
+		log.info("TC_11_Step 08: Click Search button");
 		searchPage.clickOnSearchButton();
-		log.info("TC_11_Step 0: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
+		log.info("TC_11_Step 09: Verify Search Result Fetched using messsage N item(s) were found using the following search criteria");
 		verifyTrue(searchPage.isSearchResultReturned());
 	}
 	
@@ -275,9 +267,11 @@ public class Product_Events_And_Checkout_Flow extends BaseTest {
 	OrderPageObject orderPage;
 	SearchPageObject searchPage;
 
-	@AfterClass
-	public void cleanBrowser() {
-	//	driver.quit();
+	@Parameters({ "browser"})
+	@AfterClass(alwaysRun =  true)
+	public void cleanBrowser(String browserName) {
+		log.info("Post-Condition - Close browser '" + browserName + "'");
+		closeBrowserAndDriver();
 	}
 
 }

@@ -1,0 +1,26 @@
+[INFO ] [2022-12-08 18:46:17,017] ------------- START delete file in foldder -------------
+[INFO ] [2022-12-08 18:46:17,018] ------------- END delete file in foldder -------------
+[INFO ] [2022-12-08 18:46:17,031] Pre-Condition - Open browser 'chrome' and navigate to 'http://live.techpanda.org/'
+[INFO ] [2022-12-08 18:46:32,312] TC_O1_Step 01: Click on Account
+[INFO ] [2022-12-08 18:46:32,713] TC_O1_Step 02: Click on Register
+[INFO ] [2022-12-08 18:46:33,673] TC_O1_Step 03: Input valid data to form
+[INFO ] [2022-12-08 18:46:35,218] TC_O1_Step 04: Click Register
+[INFO ] [2022-12-08 18:46:37,009] TC_O1_Step 05: Verify text displayed after registered successfully
+[INFO ] [2022-12-08 18:46:37,059]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:37,068] TC_O2_Step 01: Open Account Information page
+[INFO ] [2022-12-08 18:46:38,407] TC_O2_Step 03: Verify first name, last name and email of account
+[INFO ] [2022-12-08 18:46:38,455]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,869]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-12-08 18:46:38,875] TC_O3_Step 01: Click on Account
+[INFO ] [2022-12-08 18:46:38,967] TC_O3_Step 02: Click on Logout
+[INFO ] [2022-12-08 18:46:39,870] TC_O3_Step 03: Click on Account
+[INFO ] [2022-12-08 18:46:39,944] TC_O3_Step 04: Click on Log In
+[INFO ] [2022-12-08 18:46:40,899] TC_O3_Step 05: Input Email and Password
+[INFO ] [2022-12-08 18:46:41,156] TC_O3_Step 06: Click on Log In button
+[INFO ] [2022-12-08 18:46:42,320] TC_O3_Step 07: Verify dashboard header text displayed
+[INFO ] [2022-12-08 18:46:42,396]  -------------------------- FAILED -------------------------- 
+[INFO ] [2022-12-08 18:46:42,397] TC_03_Step 08: Back to Home
+[INFO ] [2022-12-08 18:46:43,462] Post-Condition - Close browser 'chrome'
+[INFO ] [2022-12-08 18:46:43,462] OS name = mac os x
+[INFO ] [2022-12-08 18:46:43,463] Driver instance name = chromedriver: chrome on mac (643a5d57696557751a7e4f395e129794)

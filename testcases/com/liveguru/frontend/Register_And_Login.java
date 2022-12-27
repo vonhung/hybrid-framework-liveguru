@@ -89,7 +89,9 @@ public class Register_And_Login extends BaseTest {
 		log.info("TC_O3_Step 06: Click on Log In button");
 		dashboardPage = logInPage.clickOnLogInButton();
 		log.info("TC_O3_Step 07: Verify dashboard header text displayed");
-		verifyTrue(dashboardPage.isDashboardHeaderTextDisplayed(firstName,lastName));
+		verifyFalse(dashboardPage.isDashboardHeaderTextDisplayed(firstName,lastName));
+		log.info("TC_03_Step 08: Back to Home");
+		homePage = dashboardPage.clickToHomeLogo();
 		
 	}
 	
@@ -99,10 +101,12 @@ public class Register_And_Login extends BaseTest {
 		System.out.println("Registered Account is: " + emailAddress + " and password is: " + password);
 		return accountData;
 	}
-
-	@AfterClass
-	public void cleanBrowser() {
-	//	driver.quit();
+	
+	@Parameters({ "browser"})
+	@AfterClass(alwaysRun =  true)
+	public void cleanBrowser(String browserName) {
+		log.info("Post-Condition - Close browser '" + browserName + "'");
+		closeBrowserAndDriver();
 	}
 
 }

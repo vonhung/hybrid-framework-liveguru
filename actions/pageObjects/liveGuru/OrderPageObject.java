@@ -3,7 +3,6 @@ package pageObjects.liveGuru;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.liveGuru.HomePageUI;
 import pageUIs.liveGuru.OrderPageUI;
 
 public class OrderPageObject extends BasePage {

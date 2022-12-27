@@ -57,6 +57,12 @@ public class DashboardPageObject extends BasePage {
 		return isElementDisplayed(driver, DashboardPageUI.DASHBOARD_PAGE_TITLE,firstName,lastName);
 	}
 
+	public HomePageObject clickToHomeLogo() {
+		waitForElementVisible(driver, DashboardPageUI.HOME_LOGO);
+		clickToElement(driver, DashboardPageUI.HOME_LOGO);	
+		return PageGeneratorManager.getHomePage(driver);
+	}
+
 	
 
 }

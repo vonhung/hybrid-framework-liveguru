@@ -3,7 +3,6 @@ package pageObjects.liveGuru;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
-import pageUIs.liveGuru.HomePageUI;
 import pageUIs.liveGuru.SearchPageUI;
 
 public class SearchPageObject extends BasePage {
@@ -13,9 +12,14 @@ public class SearchPageObject extends BasePage {
 		this.driver = driver;
 	}
 
-	public void enterSearchPriceRange(String priceFrom, String priceTo) {
-		waitForElementVisible(driver, SearchPageUI.PRICE_FROM, SearchPageUI.PRICE_TO);
-		sendkeyToElement(driver, SearchPageUI.PRICE_FROM, SearchPageUI.PRICE_TO, priceFrom, priceTo);
+	public void enterSearchPriceFrom(String priceFrom) {
+		waitForElementVisible(driver, SearchPageUI.PRICE_FROM);
+		sendkeyToElement(driver, SearchPageUI.PRICE_FROM, priceFrom);
+	}
+	
+	public void enterSearchPriceTo(String priceTo) {
+		waitForElementVisible(driver, SearchPageUI.PRICE_TO);
+		sendkeyToElement(driver,SearchPageUI.PRICE_TO, priceTo);
 	}
 
 	public void clickOnSearchButton() {
@@ -28,7 +32,11 @@ public class SearchPageObject extends BasePage {
 		return isElementDisplayed(driver, SearchPageUI.RESULT_MESSAGE);
 				
 	}
-
+	
+	public void clickOnModifySearchLink() {
+		waitForElementVisible(driver, SearchPageUI.MODIFY_SEARCH);		
+		clickToElement(driver, SearchPageUI.MODIFY_SEARCH);
+	}
 
 	
 }
