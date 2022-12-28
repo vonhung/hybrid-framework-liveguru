@@ -1,16 +1,15 @@
 # hybrid-framework-liveguru
 What's included:
-----WebDrivee----
+1. WebDriver
 - User Interaction (Mouse, Keyboard)
 - Handle Popup
 - Manage test data via DataProvider
-
-----Framework----
+2. Framework
 - Page Object Model
 - Page Object Pattern
 - Page Factory Model
 - Dependent/Independent Test Cases
 - Log and Test Report Generation
-----run----
+3. Run
 - Cross Browsers
 - Parallel testing
